@@ -1,0 +1,274 @@
+<section
+  class="section-hero"
+  data-section-id="{{ section.id }}"
+  data-section-type="hero"
+  {% if section.settings.width == 'wrapper--none' and section.settings.padding_top == 0 %}
+    data-overlay-header
+  {% endif %}
+  style="--PT: {{ section.settings.padding_top }}px; --PB: {{ section.settings.padding_bottom }}px; --overlay:{{ section.settings.overlay_color }};"
+>
+  <div class="{{ section.settings.width }} section-padding">
+    <div class="section--image fade-in-child js-overflow-container">
+      <div class="hero__content__wrapper {{ section.settings.flex_align }}">
+        <div class="hero__content {{ section.settings.color_bg }} js-overflow-content">
+          <div class="text__standard {{ section.settings.color }} {{ section.settings.align_text }}">
+            <div class="standard__heading hero__title h1 heading-size-9">
+              {{ page.title }}
+            </div>
+            {% for block in section.blocks %}
+              {% case block.type %}
+                {% when 'image' %}
+                  <div class="standard__image" {{ block.shopify_attributes }} style="width: {{ block.settings.image_max_limit | append: 'px' }}; max-width: 100%;">
+                    {%- if block.settings.image_link != blank -%}<a href="{{ block.settings.image_link }}">{%- endif -%}
+                    {%- if block.settings.image != blank -%}
+                      <img
+                        loading="lazy"
+                        width="{{ block.settings.image.width }}"
+                        height="{{ block.settings.image.height }}"
+                        alt="{{ block.settings.image.alt | strip_html | escape }}"
+                        src="{{ block.settings.image | image_url: '540x540' }}"
+                        srcset="
+                          {% if block.settings.image.width < 90 %}{{ block.settings.image | img_url }} {{ block.settings.image.width }}w,{% endif %}
+                          {% if block.settings.image.width >= 90 %}{{ block.settings.image | img_url: '90x' }} 90w,{% endif %}
+                          {% if block.settings.image.width >= 180 %}{{ block.settings.image | img_url: '180x' }} 180w,{% endif %}
+                          {% if block.settings.image.width >= 360 %}{{ block.settings.image | img_url: '360x' }} 360w,{% endif %}
+                          {% if block.settings.image.width >= 540 %}{{ block.settings.image | img_url: '540x' }} 5400w,{% endif %}
+                          {% if block.settings.image.width >= 720 %}{{ block.settings.image | img_url: '720x' }} 720w,{% endif %}
+                          {% if block.settings.image.width >= 1080 %}{{ block.settings.image | img_url: '1080x' }} 1080w,{% endif %}
+                          {% if block.settings.image.width >= 1440 %}{{ block.settings.image | img_url: '1440x' }} 1440w,{% endif %}
+                          {% if block.settings.image.width >= 1980 %}{{ block.settings.image | img_url: '1980x' }} 1980w{% endif %}
+                        "
+                        sizes="
+                          (min-width: 768px), 90vw,
+                          100vw
+                        "
+                      >
+                    {%- else -%}
+                      {{ 'logo' | placeholder_svg_tag: 'placeholder-svg' }}
+                    {%- endif -%}
+                    {%- if block.settings.image_link != blank -%}</a>{%- endif -%}
+                  </div>
+              {% endcase %}
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+
+      <div class="image-overlay" style="--bg:{{ section.settings.overlay_color }}; opacity:{{ section.settings.overlay_opacity | times: 0.01 }};"></div>
+      {% if section.settings.link_text == '' and section.settings.link %}
+        <a class="link-over-image" href="{{ section.settings.link }}" aria-label="{{ section.settings.title }}"></a>
+      {% endif %}
+
+      {% assign desktop_image_classes = section.settings.height %}
+      {% assign mobile_image_classes = section.settings.height | append: ' small-down--show hide' %}
+      {% if section.settings.mobile_image != blank %}
+        {% assign desktop_image_classes = desktop_image_classes | append: ' medium-up--show hide' %}
+
+        {% capture mobile_image %}
+          {% render 'image-background', img_object: section.settings.mobile_image, frame_height_class: mobile_image_classes %}
+        {% endcapture %}
+      {% endif %}
+
+      {% render 'image-background', img_object: section.settings.image, frame_height_class: desktop_image_classes %}
+
+      {{ mobile_image }}
+
+      {% if section.settings.height == 'use_screen_full' %}
+        <div class="scroll_icon_wrap">
+          <button data-scroll-down class="scroll_link bloop" aria-label="{{ 'general.accessibility.scroll' | t }}">
+            <span class="scroll_icon">{% render 'icon-arrow-down-small' %}</span>
+          </button>
+        </div>
+      {% endif %}
+    </div>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "Dynamic Top Banner",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Image"
+    },
+    {
+      "type": "image_picker",
+      "id": "mobile_image",
+      "label": "Mobile image"
+    },
+    {
+      "type": "select",
+      "id": "height",
+      "label": "Section height",
+      "default": "use_screen_two_thirds",
+      "options": [
+        {"value": "use_screen_full", "label": "Full screen height"},
+        {"value": "use_screen_three_quarters", "label": "Three quarters of screen height"},
+        {"value": "use_screen_two_thirds", "label": "Two thirds of screen height"},
+        {"value": "use_screen_one_half", "label": "One half of screen height"},
+        {"value": "use_screen_one_third", "label": "One third of screen height"},
+        {"value": "use_screen_one_fifth", "label": "One fifth of screen height"},
+        {"value": "use_pixels_800", "label": "800px"},
+        {"value": "use_pixels_650", "label": "650px"},
+        {"value": "use_pixels_500", "label": "500px"},
+        {"value": "use_image", "label": "Image height"}
+      ]
+    },
+    {
+      "type": "range",
+      "id": "overlay_opacity",
+      "min": 0,
+      "max": 100,
+      "step": 5,
+      "label": "Image overlay opacity",
+      "info": "Increase contrast for legible text.",
+      "default": 15
+    },
+    {
+      "type": "color",
+      "id": "overlay_color",
+      "label": "Overlay color",
+      "default": "#000"
+    },
+    {
+      "type": "header",
+      "content": "Text"
+    },
+    {
+      "type": "select",
+      "id": "flex_align",
+      "label": "Placement",
+      "default": "align--middle-left",
+      "options": [
+        {"value": "align--top-left", "label": "Top left"},
+        {"value": "align--top-center", "label": "Top center"},
+        {"value": "align--top-right", "label": "Top right"},
+        {"value": "align--middle-left", "label": "Middle left"},
+        {"value": "align--middle-center", "label": "Absolute center"},
+        {"value": "align--middle-right", "label": "Middle right"},
+        {"value": "align--bottom-left", "label": "Bottom left"},
+        {"value": "align--bottom-center", "label": "Bottom center"},
+        {"value": "align--bottom-right", "label": "Bottom right"}
+      ]
+    },
+    {
+      "type": "select",
+      "id": "align_text",
+      "label": "Text alignment",
+      "default": "text-left",
+      "options": [
+        {"value": "text-left", "label": "Left"},
+        {"value": "text-center", "label": "Center"},
+        {"value": "text-right", "label": "Right"}
+      ]
+    },
+    {
+      "type": "select",
+      "id": "color",
+      "label": "Text color",
+      "default": "text--white",
+      "options": [
+        {"value": "text--neutral", "label": "Normal text"},
+        {"value": "text--white", "label": "White"},
+        {"value": "text--primary", "label": "Primary accent"},
+        {"value": "text--secondary", "label": "Secondary accent"},
+        {"value": "text--black", "label": "Black"},
+        {"value": "text--invert--primary", "label": "Primary dark accent"},
+        {"value": "text--invert--secondary", "label": "Secondary dark accent"},
+        {"value": "text--invert", "label": "Inverted text color"}
+      ]
+    },
+    {
+      "type": "select",
+      "id": "color_bg",
+      "label": "Background color",
+      "default": "hero__content--transparent",
+      "options": [
+        {"value": "hero__content--transparent", "label": "Transparent"},
+        {"value": "palette--light bg--neutral", "label": "White"},
+        {"value": "palette--light bg--accent", "label": "Light"},
+        {"value": "palette--dark bg--invert", "label": "Dark"},
+        {"value": "palette--dark bg--invert--accent", "label": "Dark accent"}
+      ]
+    },
+    {
+      "type": "header",
+      "content": "Section spacing"
+    },
+    {
+      "type": "select",
+      "id": "width",
+      "label": "Section width",
+      "default": "wrapper--none",
+      "options": [
+        {"value": "wrapper--none", "label": "Full width"},
+        {"value": "wrapper--full", "label": "Full width padded"},
+        {"value": "wrapper", "label": "Page width"},
+        {"value": "wrapper--narrow", "label": "Page width narrow"}
+      ]
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 180,
+      "step": 2,
+      "unit": "px",
+      "label": "Padding top",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 180,
+      "step": 2,
+      "unit": "px",
+      "label": "Padding bottom",
+      "default": 0
+    }
+  ],
+  "blocks": [
+    {
+      "type": "image",
+      "name": "Image",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image"
+        },
+        {
+          "type": "range",
+          "id": "image_max_limit",
+          "min": 10,
+          "max": 900,
+          "step": 10,
+          "unit": "px",
+          "label": "Max width",
+          "default": 300
+        },
+        {
+          "type": "url",
+          "id": "image_link",
+          "label": "Link"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Dynamic Top Banner",
+      "category": "Image"
+    }
+  ],
+  "disabled_on": {
+    "groups": ["header", "aside"]
+  }
+}
+{% endschema %}
+
+
+

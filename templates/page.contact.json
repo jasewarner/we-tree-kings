@@ -1,0 +1,185 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "page-default",
+      "disabled": true,
+      "settings": {
+        "show_title": false,
+        "show_content": false,
+        "alignment": "text-left",
+        "page_nav": "",
+        "bg": "palette--light bg--neutral",
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "section_text_RmqXCP": {
+      "type": "section-text",
+      "blocks": {
+        "kicker_exndna": {
+          "type": "kicker",
+          "settings": {
+            "kicker": "<p>Contact Us</p>",
+            "enable_caps": false,
+            "text_size": 5
+          }
+        },
+        "heading_VXnNFT": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>We're just a call or email away</p>",
+            "text_size": 9
+          }
+        }
+      },
+      "block_order": [
+        "kicker_exndna",
+        "heading_VXnNFT"
+      ],
+      "custom_css": [
+        ".h1,.h2,.h3,p,div {text-align: center !important;}"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "align_text": "text-left",
+        "color_bg": "palette--light bg--neutral",
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 22
+      }
+    },
+    "section_text_RELP8J": {
+      "type": "section-text",
+      "blocks": {
+        "text_zbYtQy": {
+          "type": "text",
+          "settings": {
+            "text": "<p>If, for any reason, you have any issues or simply just have some questions for us, please do not think twice about contacting our support team.</p>",
+            "text_size": 5,
+            "text_columns": 1
+          }
+        }
+      },
+      "block_order": [
+        "text_zbYtQy"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "align_text": "text-left",
+        "color_bg": "palette--light bg--neutral",
+        "width": "wrapper",
+        "padding_top": 26,
+        "padding_bottom": 0
+      }
+    },
+    "section_text_MGR3rF": {
+      "type": "section-text",
+      "blocks": {
+        "text_xgTPxF": {
+          "type": "text",
+          "settings": {
+            "text": "<p>📞 <strong>Phone:</strong> 0333 3355 947<br/>📧 <strong>Email:</strong> hello@wetreekings.com<br/>📍 <strong>Visit Us: </strong><a href=\"https://wetreekings.com/pop-up-shops/\">Find a pop-up shop</a><br/>💻 <strong>Order Online: </strong><a href=\"https://wetreekings.com/shop/\">Browse our tree’s</a></p>",
+            "text_size": 5,
+            "text_columns": 1
+          }
+        }
+      },
+      "block_order": [
+        "text_xgTPxF"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "align_text": "text-left",
+        "color_bg": "palette--light bg--neutral",
+        "width": "wrapper",
+        "padding_top": 20,
+        "padding_bottom": 36
+      }
+    },
+    "contact": {
+      "type": "section-contact",
+      "blocks": {
+        "form_element_1": {
+          "type": "text",
+          "settings": {
+            "title": "Full Name"
+          }
+        },
+        "form_element_2": {
+          "type": "email",
+          "settings": {
+            "title": "Email"
+          }
+        },
+        "form_element_3": {
+          "type": "body",
+          "settings": {
+            "title": "Message"
+          }
+        },
+        "accordion_1": {
+          "type": "accordion",
+          "settings": {
+            "title": "How to reach us by phone and email",
+            "raw_content": "<p>📞 <strong>Phone:</strong> 0333 3355 947<br/>📧 <strong>Email:</strong> hello@wetreekings.com<br/>📍 <strong>Visit Us:</strong><a href=\"https://wetreekings.com/pop-up-shops/\"> Find a pop-up shop</a><br/>💻 <strong>Order Online:</strong><a href=\"https://wetreekings.com/shop/\"> Browse our tree’s</a></p>"
+          }
+        },
+        "accordion_2": {
+          "type": "accordion",
+          "settings": {
+            "title": "Our pop-up opening hours",
+            "raw_content": "<p>Our shops are open throughout the festive season, so you can come by whenever suits you best.</p><p><strong>Monday – Saturday:</strong> 8 AM – 8 PM<br/><strong>Sunday (at supermarket locations):</strong> 9 AM – 5 PM<br/><strong>Sunday (at all other locations):</strong> 8 AM – 8 PM </p><p>Sometimes we are open late if we are busy, so feel free to call us if you are popping down for a last-minute tree! </p>"
+          }
+        },
+        "accordion_3": {
+          "type": "accordion",
+          "settings": {
+            "title": "Customer service help",
+            "raw_content": "<p>Whether you’re after advice on which tree to choose or have questions about our delivery and collection options, our friendly customer service team is here to help. We aim to make your experience with<em>We Tree Kings</em>as seamless as possible.</p>"
+          }
+        },
+        "accordion_4": {
+          "type": "accordion",
+          "settings": {
+            "title": "Stay in touch",
+            "raw_content": "<p>Don’t miss our latest offers, tree care tips, and decorating inspiration!<br/>📷 <a href=\"http://instagram.com/wetreekings\">Instagram</a> | 👍 <a href=\"http://www.facebook.com/wetreekings\">Facebook </a></p><p>Thank you for making <em>We Tree Kings</em> part of your festive tradition – we’re excited to help you bring a little extra magic into your home this Christmas!</p>"
+          }
+        }
+      },
+      "block_order": [
+        "form_element_1",
+        "form_element_2",
+        "form_element_3",
+        "accordion_1",
+        "accordion_2",
+        "accordion_3",
+        "accordion_4"
+      ],
+      "settings": {
+        "title": "Or send us a message using the form below",
+        "accordion_title": "",
+        "bg": "palette--dark bg--invert--accent",
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "section_text_RmqXCP",
+    "section_text_RELP8J",
+    "section_text_MGR3rF",
+    "contact"
+  ]
+}

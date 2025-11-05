@@ -1,0 +1,56 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "type": "header",
+  "name": "Header",
+  "sections": {
+    "header": {
+      "type": "header",
+      "blocks": {
+        "toolbar": {
+          "type": "toolbar",
+          "settings": {
+            "announcement_text": "<p>Over 600 5-Star Reviews on Trustpilot.    Free Home Delivery.</p>",
+            "secondary_linklist": "",
+            "show_menu_desktop": true,
+            "show_menu_mobile": true,
+            "show_locale_desktop": true,
+            "show_locale_mobile": true,
+            "show_country_name": false,
+            "show_country_flag": true,
+            "show_currency_desktop": true,
+            "show_currency_mobile": true
+          }
+        }
+      },
+      "block_order": [
+        "toolbar"
+      ],
+      "custom_css": [
+        ".theme__header__toolbar {background-color: #ba353b !important;}"
+      ],
+      "settings": {
+        "enable_header_sticky": true,
+        "header_style": "logo_beside",
+        "full_width": false,
+        "logo": "{{ shop.brand.logo }}",
+        "logo_max_limit": 100,
+        "main_menu_linklist": "main-menu",
+        "enable_search": true,
+        "enable_account": true,
+        "transparent_home": false,
+        "transparent_collection": false
+      }
+    }
+  },
+  "order": [
+    "header"
+  ]
+}

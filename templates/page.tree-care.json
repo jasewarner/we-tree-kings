@@ -1,0 +1,227 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "section_text_tF3c6m": {
+      "type": "section-text",
+      "blocks": {
+        "kicker_tfaLe9": {
+          "type": "kicker",
+          "settings": {
+            "kicker": "<p>Tree Care</p>",
+            "enable_caps": false,
+            "text_size": 5
+          }
+        },
+        "heading_wkzYw8": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>How to look after your tree</p>",
+            "text_size": 9
+          }
+        }
+      },
+      "block_order": [
+        "kicker_tfaLe9",
+        "heading_wkzYw8"
+      ],
+      "disabled": true,
+      "name": "Rich text",
+      "settings": {
+        "align_text": "text-left",
+        "color_bg": "palette--light bg--neutral",
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "main": {
+      "type": "page-default",
+      "disabled": true,
+      "settings": {
+        "show_title": false,
+        "show_content": true,
+        "alignment": "text-left",
+        "page_nav": "",
+        "bg": "palette--light bg--neutral",
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "section_row_Wh3rGD": {
+      "type": "section-row",
+      "name": "Image with text",
+      "settings": {
+        "image": "shopify://shop_images/WTK_edit_5_12_24-25.jpg",
+        "shape": "none",
+        "aspect_ratio": 0.7,
+        "layout": "right",
+        "title": "Caring for your Christmas tree​",
+        "text_size": 7,
+        "text": "<p>Now that you have decided on the type of real Christmas tree that suits you best and you are waiting for it to arrive.</p><p>It is time to get up to speed on how to care for it. Remember – the more that you care for your Christmas tree, the more luscious and vibrant it will look throughout the festive period.</p>",
+        "color_text_bg": "palette--light bg--accent",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "btn",
+        "button_color": "btn--primary",
+        "color_bg": "palette--light bg--accent",
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 30
+      }
+    },
+    "section_text_nxGUGM": {
+      "type": "section-text",
+      "blocks": {
+        "heading_tJUCTF": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Tips for looking after your tree</p>",
+            "text_size": 9
+          }
+        }
+      },
+      "block_order": [
+        "heading_tJUCTF"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "align_text": "text-center",
+        "color_bg": "palette--light bg--accent",
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "section_timeline_tree_L9akBq": {
+      "type": "section-timeline-tree",
+      "blocks": {
+        "episode_NVyC7x": {
+          "type": "episode",
+          "settings": {
+            "title": "1. A Fresh Cut",
+            "date": "",
+            "story": "<p>The first step you must take is to give your tree a fresh cut, by sawing an inch off the bottom of the tree. If you have purchased your tree in-store, one of our lovely team will do this for you. It must be done within 6 hours of getting the tree into water, so trees that are delivered need to be cut at home when they arrive.​</p>",
+            "link_text": "",
+            "link": ""
+          }
+        },
+        "episode_TGAwPE": {
+          "type": "episode",
+          "settings": {
+            "title": "2. An Apéritif​",
+            "date": "",
+            "story": "<p>Once your tree has it’s fresh cut (which removes the seal of sap on the bottom and allows it to drink) make sure to leave it outside in a bucket of water until you are ready to decorate. So go ahead and dust off the decorations whilst your tree happily soaks up some water before the main event. The longer you leave it outside in its bucket, the more hydrated it will be when you bring it in.</p>",
+            "link_text": "Continued...",
+            "link": ""
+          }
+        },
+        "episode_E4yXWW": {
+          "type": "episode",
+          "settings": {
+            "title": "3. Keep it Cool",
+            "date": "",
+            "story": "<p>Position your tree in the coldest part of the room, away from radiators and direct sunlight.</p>",
+            "link_text": "Continued...",
+            "link": ""
+          }
+        },
+        "episode_bahTcQ": {
+          "type": "episode",
+          "settings": {
+            "title": "4. Stand to Attention",
+            "date": "",
+            "story": "<p>The tree must be placed within a water-holding tree stand to keep it supported and in position. The stand needs to be cleaned out before use and filled with water.</p>",
+            "link_text": "Continued...",
+            "link": ""
+          }
+        },
+        "episode_6h9cnk": {
+          "type": "episode",
+          "settings": {
+            "title": "5. Thirsty Work",
+            "date": "",
+            "story": "<p>Lots of us like a drink at Christmas, and your tree is no different. A 6ft Christmas tree can drink up to a pint of water every day, so keep the reservoir topped up with fresh water.</p>",
+            "link_text": "Continued...",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "episode_NVyC7x",
+        "episode_TGAwPE",
+        "episode_E4yXWW",
+        "episode_bahTcQ",
+        "episode_6h9cnk"
+      ],
+      "name": "Timeline tree",
+      "settings": {
+        "bg": "palette--light bg--accent",
+        "width": "wrapper--narrow",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "section_row_KFdVKw": {
+      "type": "section-row",
+      "name": "Image with text",
+      "settings": {
+        "image": "shopify://shop_images/Nordmann_Pot_Grown_1x1_a92caf27-39dd-4391-bc0a-557df84d14d2.png",
+        "shape": "none",
+        "aspect_ratio": 1,
+        "layout": "right",
+        "title": "Caring for your pot-grown Christmas tree",
+        "text_size": 7,
+        "text": "<p><strong>The Great Outdoors.</strong> Keep your pot-grown tree out in the garden until the festive season gets into full swing. Living trees don’t like to be indoors for too long.</p><p><strong>Plan Ahead.</strong> Make sure you place the pot on a saucer and that the container has good drainage.</p><p><strong>Water, Water, Everywhere</strong>. Christmas trees grow in well drained soil and so don’t make the mistake of drowning the poor thing. Regularly and little is how your pot-grown tree should be watered. The soil should be kept moist at all times, but not sodden.</p><p><strong>Keep it Cool.</strong> Choose its position carefully. Don’t place it near a radiator or snuggled up by the fire. It needs to stay cool and moist so as not to dry out and cause the needles to drop.</p>",
+        "color_text_bg": "palette--light bg--accent",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "btn",
+        "button_color": "btn--neutral",
+        "color_bg": "palette--light bg--accent",
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "section_row_3apULR": {
+      "type": "section-row",
+      "name": "Image with text",
+      "settings": {
+        "image": "shopify://shop_images/WTK_edit_5_12_24-44.jpg",
+        "shape": "none",
+        "aspect_ratio": 1,
+        "layout": "left",
+        "title": "Moving your pot grown tree outdoors",
+        "text_size": 7,
+        "text": "<p><strong>Get Prepared. </strong>When you are ready to move the tree from inside to outside, don’t throw it straight from a spot near a radiator out into a blizzard. If you can move it into a cool part of the house for a few weeks, such as a utility room, and allow it to acclimatise a little, this will reduce the chance of the tree being ‘shocked’ by the cold, and improve its chances of survival for next year.</p><p><strong>Make a Choice. </strong>You can keep your Christmas tree in its pot or plant it into the garden.</p><p><strong>Location, Location, Location. </strong>Make sure you place it in the right spot. These types of trees prefer a sheltered position out of direct sunlight.</p><p><strong>Take Care. </strong>They like conditions that are cool and moist so keep them watered, especially during summer and any dry spells.</p>",
+        "color_text_bg": "palette--light bg--accent",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "btn",
+        "button_color": "btn--neutral",
+        "color_bg": "palette--light bg--accent",
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "section_text_tF3c6m",
+    "main",
+    "section_row_Wh3rGD",
+    "section_text_nxGUGM",
+    "section_timeline_tree_L9akBq",
+    "section_row_KFdVKw",
+    "section_row_3apULR"
+  ]
+}

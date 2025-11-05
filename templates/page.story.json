@@ -1,0 +1,170 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "section_text_PNC6nf": {
+      "type": "section-text",
+      "blocks": {
+        "kicker_LaccjD": {
+          "type": "kicker",
+          "settings": {
+            "kicker": "<p>About We Tree Kings</p>",
+            "enable_caps": false,
+            "text_size": 5
+          }
+        },
+        "heading_E9DL8r": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>A family run business with a love for Christmas</p>",
+            "text_size": 9
+          }
+        }
+      },
+      "block_order": [
+        "kicker_LaccjD",
+        "heading_E9DL8r"
+      ],
+      "custom_css": [
+        ".h1,.h2,.h3,p,div {text-align: center !important;}"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "align_text": "text-left",
+        "color_bg": "palette--light bg--neutral",
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "main": {
+      "type": "page-default",
+      "disabled": true,
+      "settings": {
+        "show_title": false,
+        "show_content": true,
+        "alignment": "text-left",
+        "page_nav": "",
+        "bg": "palette--light bg--neutral",
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "section_row_Wh3rGD": {
+      "type": "section-row",
+      "custom_css": [
+        ".h1,.h2,.h3,p,div {text-align: center !important;}"
+      ],
+      "name": "Image with text",
+      "settings": {
+        "image": "shopify://shop_images/staff_training-10.jpg",
+        "shape": "none",
+        "aspect_ratio": 1,
+        "layout": "right",
+        "title": "We're Passionate About Christmas",
+        "text_size": 7,
+        "text": "<p>We Tree Kings is a family-run business, made up of a husband and wife team, Pete and Felicity. </p><p>We are passionate about Christmas and are dedicated to sourcing and selling the highest quality real Christmas trees – hand-selected and freshly cut. We Tree Kings sell Christmas trees from our sites across the Midlands and Yorkshire, as well as delivering trees nationwide.</p><p>Our aim is to provide the best product on the market at a competitive price, as we believe everyone deserves the perfect Christmas tree.</p>",
+        "color_text_bg": "palette--light bg--neutral",
+        "button_label": "Find your perfect tree",
+        "button_link": "shopify://collections/real-christmas-trees",
+        "button_style": "btn",
+        "button_color": "btn--primary",
+        "color_bg": "palette--light bg--neutral",
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 60
+      }
+    },
+    "section_row_f8c9Ne": {
+      "type": "section-row",
+      "custom_css": [
+        ".h1,.h2,.h3,p,div {text-align: center !important;}"
+      ],
+      "name": "Image with text",
+      "settings": {
+        "image": "shopify://shop_images/Scotland_4.jpg",
+        "shape": "none",
+        "aspect_ratio": 1,
+        "layout": "left",
+        "title": "Our Ethos",
+        "text_size": 7,
+        "text": "<p>Our real Christmas trees are predominantly grown in the UK because we are committed to supporting local businesses whilst providing a high-quality product – a live Christmas tree that will look fresh and healthy all festive season.</p><p>We work with the leading Christmas Tree growers where the well-being of the live trees and the planet is of utmost importance. By working closely with the growers and hand-picking the Christmas tree to ensure the quality of each tree ourselves.</p><p>The live Christmas trees are tended to weekly and are grown on north-facing slopes with well-drained soil – just how they like it. The Christmas trees are cut close to delivery, so that they arrive brimming with freshness, ready for the celebrations to commence.</p>",
+        "color_text_bg": "palette--light bg--accent",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "btn",
+        "button_color": "btn--neutral",
+        "color_bg": "palette--light bg--accent",
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 60
+      }
+    },
+    "section_row_a6tU4K": {
+      "type": "section-row",
+      "custom_css": [
+        ".h1,.h2,.h3,p,div {text-align: center !important;}"
+      ],
+      "name": "Image with text",
+      "settings": {
+        "image": "shopify://shop_images/Scotland_1.jpg",
+        "shape": "none",
+        "aspect_ratio": 0.8,
+        "layout": "right",
+        "title": "Our Tree Growing Partners",
+        "text_size": 7,
+        "text": "<p>We work with Christmas tree growers all over the UK that we visit regularly, and have relationships with local growers in England, as well as growers in Scotland, Wales and even Ireland.</p><p>The plantations in Scotland are set within an epic landscape. They enjoy some of the most amazing sunsets (pictured right) – the sky turning pink and orange over a lush green pine forest.</p><p>The families that grow our trees are close friends, and whenever we visit to inspect this year’s harvest, a warm welcome awaits us, with piping hot cups of tea and even the odd dram of whiskey!!</p>",
+        "color_text_bg": "palette--light bg--neutral",
+        "button_label": "Find your perfect tree",
+        "button_link": "shopify://collections/real-christmas-trees",
+        "button_style": "btn",
+        "button_color": "btn--primary",
+        "color_bg": "palette--light bg--neutral",
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 76
+      }
+    },
+    "section_row_icfpBg": {
+      "type": "section-row",
+      "custom_css": [
+        ".h1,.h2,.h3,p,div {text-align: center !important;}"
+      ],
+      "name": "Image with text",
+      "settings": {
+        "image": "shopify://shop_images/WTK_edit_5_12_24-25.jpg",
+        "shape": "none",
+        "aspect_ratio": 1,
+        "layout": "left",
+        "title": "Sustainability​",
+        "text_size": 7,
+        "text": "<p>At We Tree Kings we aim to be a sustainable and eco-friendly company. During the Christmas period our intention is to offset any carbon produced due to delivery and packaging by the amount of trees that we grow throughout the year, so that in the near future we can describe ourselves as a carbon neutral company.</p><p>Throughout the year we are a carbon positive company and family. An average 6ft Christmas tree is grown for about 8-10 years before being cut. During this period the trees provide habitat for wildlife as well as producing oxygen and soaking up CO2 from the atmosphere . For every Christmas tree that is cut down, our growing partners always aim to plant another two in its place.</p><p>Our delivery partners, DX Logistics, are also committed to operating in line with an environment and sustainability policy which is key to the ethos of our company. They work with both their customers and suppliers to develop sustainable practices, whilst reducing unnecessary waste by reduction, re-use and recycling.</p>",
+        "color_text_bg": "palette--light bg--accent",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "btn",
+        "button_color": "btn--neutral",
+        "color_bg": "palette--light bg--accent",
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 76
+      }
+    }
+  },
+  "order": [
+    "section_text_PNC6nf",
+    "main",
+    "section_row_Wh3rGD",
+    "section_row_f8c9Ne",
+    "section_row_a6tU4K",
+    "section_row_icfpBg"
+  ]
+}

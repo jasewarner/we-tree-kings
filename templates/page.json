@@ -1,0 +1,264 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "banner_hero_dynamic_cWhB8A": {
+      "type": "banner-hero-dynamic",
+      "blocks": {
+        "image_yeYWbN": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/trustpilot-inline-white.webp",
+            "image_max_limit": 200,
+            "image_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_yeYWbN"
+      ],
+      "custom_css": [
+        ".h1,.h2,.h3 {text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.4) !important;}"
+      ],
+      "name": "Dynamic Top Banner",
+      "settings": {
+        "image": "shopify://shop_images/WTK_edit_5_12_24-23_-_Edited.jpg",
+        "mobile_image": "shopify://shop_images/WTK_edit_5_12_24-23_-_Edited.jpg",
+        "height": "use_screen_one_half",
+        "overlay_opacity": 20,
+        "overlay_color": "#000000",
+        "flex_align": "align--middle-center",
+        "align_text": "text-center",
+        "color": "text--white",
+        "color_bg": "hero__content--transparent",
+        "width": "wrapper",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "dynamic_page_content_QFPNML": {
+      "type": "dynamic-page-content",
+      "name": "Dynamic Page Content",
+      "settings": {
+        "align_text": "text-left",
+        "color_bg": "palette--light bg--neutral",
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "main": {
+      "type": "page-default",
+      "disabled": true,
+      "settings": {
+        "show_title": true,
+        "show_content": true,
+        "alignment": "text-left",
+        "page_nav": "",
+        "bg": "palette--light bg--neutral",
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "section_collection_BXyBpr": {
+      "type": "section-collection",
+      "name": "Featured collection",
+      "settings": {
+        "title": "Our Most Popular Trees",
+        "description": "",
+        "collection": "real-christmas-trees",
+        "grid": 4,
+        "limit": 8,
+        "enable_slider": true,
+        "color_bg": "palette--light bg--accent",
+        "show_view_all": true,
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "section_reviews_gAMNWc": {
+      "type": "section-reviews",
+      "blocks": {
+        "review_A7QWLz": {
+          "type": "review",
+          "settings": {
+            "title": "\"Wow, just wow!!!!\"",
+            "job": "Wendy, Online Order",
+            "stars": 5,
+            "text": "<p>Wow, just wow!!!! Ordered my tree at 3pm and it was delivered at 10am the next morning. Absolutely perfect size, shape and in perfect condition. I loved the packaging with all the eco and helpful hints! Just so impressed, well definitely place an order with We Tree Kings next year! </p>"
+          }
+        },
+        "review_LmTKgD": {
+          "type": "review",
+          "settings": {
+            "title": "\"Beautiful trees and quality\"",
+            "job": "Karen, Stratford Upon Avon",
+            "stars": 5,
+            "text": "<p>Have used We Tree Kings for a few years now and have been amazed at the beautiful trees and the quality. This Christmas mine was in the house for 3 weeks and barely shed a needle and still looked great right up to the last day of Christmas. The value for money is exceptional and I would have no hesitation buying from them every year. </p>"
+          }
+        },
+        "review_AXQjdc": {
+          "type": "review",
+          "settings": {
+            "title": "\"Amazing!!\"",
+            "job": "Tracey, Northampton",
+            "stars": 5,
+            "text": "<p>We have been going to central (Morrisons) in Northampton every year to get our Xmas Tree from We Tree Kings only because the guy there who sells them is amazing !! He has the best customer service we have ever experienced. He makes the Xmas Tree buying a joyful ritual for us each year and we make an event of it. Great Service and Great Trees and a Great Experience.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "review_A7QWLz",
+        "review_LmTKgD",
+        "review_AXQjdc"
+      ],
+      "name": "Testimonials",
+      "settings": {
+        "title": "Serving Thousands of Happy Customers Every Year.",
+        "description": "",
+        "grid": 3,
+        "background_color": "palette--light bg--accent",
+        "width": "wrapper",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "section_row_pceHVY": {
+      "type": "section-row",
+      "custom_css": [
+        ".h1,.h2,.h3,p,div {text-align: center !important;}"
+      ],
+      "name": "Image with text",
+      "settings": {
+        "image": "shopify://shop_images/staff_training-10.jpg",
+        "shape": "none",
+        "aspect_ratio": 1,
+        "layout": "left",
+        "title": "Family-run Business",
+        "text_size": 7,
+        "text": "<p>We are passionate about Christmas and are dedicated to sourcing and selling the highest quality real Christmas trees – hand-selected and freshly cut.  We Tree Kings sell Christmas trees from our sites across the Midlands and Yorkshire, as well as delivering trees nationwide.</p>",
+        "color_text_bg": "palette--light bg--neutral",
+        "button_label": "Learn more",
+        "button_link": "shopify://pages/about",
+        "button_style": "btn",
+        "button_color": "btn--primary",
+        "color_bg": "palette--light bg--accent",
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "section_icons_cKLdbG": {
+      "type": "section-icons",
+      "blocks": {
+        "icon_block_NCy6pA": {
+          "type": "icon_block",
+          "settings": {
+            "icon_name": "icon-earth",
+            "icon_alt": "shopify://shop_images/Untitled_design_28.png",
+            "icon_color": "#4f8bf2",
+            "title": "Our Ethos",
+            "text": "<p>We proudly offer real Christmas trees grown right here in the UK! By choosing our trees, you're not only getting a top-notch holiday centrepiece but also supporting wonderful local businesses.</p>"
+          }
+        },
+        "icon_block_8irVRT": {
+          "type": "icon_block",
+          "settings": {
+            "icon_name": "icon-basket-return",
+            "icon_alt": "shopify://shop_images/Untitled_design_27.png",
+            "icon_color": "#51c88e",
+            "title": "Our Tree Farmers",
+            "text": "<p>We maintain partnerships with Christmas tree growers throughout the UK. The families that grow our trees are close friends, and whenever we visit, a warm welcome awaits us.</p>"
+          }
+        },
+        "icon_block_KrtdbB": {
+          "type": "icon_block",
+          "settings": {
+            "icon_name": "icon-lock-shield",
+            "icon_alt": "shopify://shop_images/Untitled_design_26.png",
+            "icon_color": "#ffc896",
+            "title": "Sustainable & Eco Friendly",
+            "text": "<p>We aim to be a sustainable and eco-friendly company. During the Christmas period our intention is to offset any carbon produced by the amount of trees that we grow throughout the year.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "icon_block_NCy6pA",
+        "icon_block_8irVRT",
+        "icon_block_KrtdbB"
+      ],
+      "name": "Icon columns",
+      "settings": {
+        "bg": "palette--light bg--accent",
+        "icon_size": "icon--medium",
+        "show_icon_bg": true,
+        "alignment": "text-center",
+        "grid": 3,
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "section_video_player_xJGn4F": {
+      "type": "section-video-player",
+      "name": "Video player",
+      "settings": {
+        "video_link": "https://youtu.be/6i3vPv8TSQk",
+        "ratio": "0.5626",
+        "show_image_placeholder": false,
+        "button_width": 80,
+        "button_color": "text--primary",
+        "image": "shopify://shop_images/WTK_edit_5_12_24-83_31253793-5de8-4cd3-805f-6151852a7cb0.jpg",
+        "overlay_opacity": 15,
+        "overlay_color": "#000000",
+        "video_link_bg": "",
+        "object_position": "center-center",
+        "flex_align": "align--top-center",
+        "color": "text--neutral",
+        "color_bg": "hero__content--transparent",
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "dynamic-bottom-banner": {
+      "type": "banner-hero-dynamic-bottom",
+      "name": "Dynamic Bottom Banner",
+      "settings": {
+        "image": "shopify://shop_images/WTK_edit_5_12_24-44.jpg",
+        "mobile_image": "shopify://shop_images/WTK_edit_5_12_24-44.jpg",
+        "height": "use_screen_one_fifth",
+        "overlay_opacity": 25,
+        "overlay_color": "#000000",
+        "flex_align": "align--middle-center",
+        "align_text": "text-center",
+        "color": "text--white",
+        "color_bg": "hero__content--transparent",
+        "width": "wrapper--none",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "banner_hero_dynamic_cWhB8A",
+    "dynamic_page_content_QFPNML",
+    "main",
+    "section_collection_BXyBpr",
+    "section_reviews_gAMNWc",
+    "section_row_pceHVY",
+    "section_icons_cKLdbG",
+    "section_video_player_xJGn4F",
+    "dynamic-bottom-banner"
+  ]
+}

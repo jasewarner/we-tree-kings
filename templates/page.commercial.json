@@ -1,0 +1,212 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "page-default",
+      "disabled": true,
+      "settings": {
+        "show_title": true,
+        "show_content": true,
+        "alignment": "text-left",
+        "page_nav": "",
+        "bg": "palette--light bg--neutral",
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "section_text_yEddKN": {
+      "type": "section-text",
+      "blocks": {
+        "kicker_Nq9L6e": {
+          "type": "kicker",
+          "disabled": true,
+          "settings": {
+            "kicker": "<p>Commercial Christmas Trees</p>",
+            "enable_caps": false,
+            "text_size": 5
+          }
+        },
+        "heading_T96Gz8": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Light up your business with <em>real</em> Christmas trees!</p>",
+            "text_size": 9
+          }
+        }
+      },
+      "block_order": [
+        "kicker_Nq9L6e",
+        "heading_T96Gz8"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "align_text": "text-left",
+        "color_bg": "palette--light bg--neutral",
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "section_row_bXAtjx": {
+      "type": "section-row",
+      "name": "Image with text",
+      "settings": {
+        "image": "shopify://shop_images/WTK_edit_5_12_24-58.jpg",
+        "shape": "none",
+        "aspect_ratio": 1,
+        "layout": "right",
+        "title": "Why choose us for Christmas Tree installation?",
+        "text_size": 7,
+        "text": "<p>We have been installing and decorating Christmas trees for commercial customers across the Midlands and the South East for over a decade.</p><ul><li>Hand-picked trees.</li><li>High quality, UK-grown Nordmann and Fraser Firs, and Norway Spruce.</li><li>Titan and Cinco water holding stands.</li></ul>",
+        "color_text_bg": "palette--light bg--neutral",
+        "button_label": "Get a quote",
+        "button_link": "shopify://pages/contact",
+        "button_style": "btn",
+        "button_color": "btn--primary",
+        "color_bg": "palette--light bg--neutral",
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "section_text_zNhKUK": {
+      "type": "section-text",
+      "blocks": {
+        "heading_hMCDC7": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>How our commercial service works</p>",
+            "text_size": 9
+          }
+        }
+      },
+      "block_order": [
+        "heading_hMCDC7"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "align_text": "text-center",
+        "color_bg": "palette--light bg--neutral",
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "section_timeline_tree_xk8j7y": {
+      "type": "section-timeline-tree",
+      "blocks": {
+        "episode_4nGp9y": {
+          "type": "episode",
+          "settings": {
+            "title": "1. Submit your details using form below",
+            "date": "",
+            "story": "",
+            "link_text": "Continued...",
+            "link": ""
+          }
+        },
+        "episode_tETEkC": {
+          "type": "episode",
+          "settings": {
+            "title": "2. Receive a free site inspection via video call",
+            "date": "",
+            "story": "",
+            "link_text": "Continued...",
+            "link": ""
+          }
+        },
+        "episode_K6zyex": {
+          "type": "episode",
+          "settings": {
+            "title": "3. Pick your decoration theme from our brochure",
+            "date": "",
+            "story": "",
+            "link_text": "Continued...",
+            "link": ""
+          }
+        },
+        "episode_gbpeLq": {
+          "type": "episode",
+          "settings": {
+            "title": "4. Installation on date of your choosing",
+            "date": "",
+            "story": "",
+            "link_text": "Continued...",
+            "link": ""
+          }
+        },
+        "episode_LrhCcT": {
+          "type": "episode",
+          "settings": {
+            "title": "5. Put your feet up, and enjoy the festive season",
+            "date": "",
+            "story": "",
+            "link_text": "Continued...",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "episode_4nGp9y",
+        "episode_tETEkC",
+        "episode_K6zyex",
+        "episode_gbpeLq",
+        "episode_LrhCcT"
+      ],
+      "name": "Timeline tree",
+      "settings": {
+        "bg": "palette--light bg--neutral",
+        "width": "wrapper--narrow",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "section_contact_jrnab6": {
+      "type": "section-contact",
+      "blocks": {
+        "text_3w7cHz": {
+          "type": "text",
+          "settings": {
+            "title": "Full Name"
+          }
+        },
+        "email_mwtDbp": {
+          "type": "email",
+          "settings": {
+            "title": "Email"
+          }
+        }
+      },
+      "block_order": [
+        "text_3w7cHz",
+        "email_mwtDbp"
+      ],
+      "name": "Contact form",
+      "settings": {
+        "title": "Get your free quote for Christmas Tree installation",
+        "accordion_title": "",
+        "bg": "palette--light bg--neutral",
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "section_text_yEddKN",
+    "section_row_bXAtjx",
+    "section_text_zNhKUK",
+    "section_timeline_tree_xk8j7y",
+    "section_contact_jrnab6"
+  ]
+}

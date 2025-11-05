@@ -1,0 +1,312 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "default-banner": {
+      "type": "section-hero",
+      "blocks": {
+        "banner-heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Christmas Tree Delivery Nationwide</p>",
+            "text_size": 9
+          }
+        },
+        "image_qVQEdQ": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/trustpilot-inline-white.webp",
+            "image_max_limit": 200,
+            "image_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "banner-heading",
+        "image_qVQEdQ"
+      ],
+      "custom_css": [
+        ".h1,.h2,.h3 {text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3) !important;}",
+        ".section-hero {background-color: #ffffff !important;}",
+        ".section-hero .wrapper.section-padding {background-color: #ffffff !important;}",
+        ".section-hero .section--image {background-color: #ffffff !important;}"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/WTK_edit_5_12_24-23_-_Edited.jpg",
+        "mobile_image": "shopify://shop_images/WTK_edit_5_12_24-23_-_Edited.jpg",
+        "height": "use_screen_one_half",
+        "overlay_opacity": 20,
+        "overlay_color": "#000000",
+        "flex_align": "align--middle-center",
+        "align_text": "text-center",
+        "color": "text--white",
+        "color_bg": "hero__content--transparent",
+        "width": "wrapper",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_text_a6YBMF": {
+      "type": "section-text",
+      "blocks": {
+        "text_jdw9Ez": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We deliver your perfect Christmas tree to you. A family run business, we have been selling Christmas trees for over 10 years. </p>",
+            "text_size": 5,
+            "text_columns": 1
+          }
+        },
+        "button_PcTnxw": {
+          "type": "button",
+          "settings": {
+            "button_text": "Find your perfect tree",
+            "button_url": "shopify://collections/real-christmas-trees",
+            "button_size": "btn--large",
+            "button_style": "hero__btn btn",
+            "button_color": "btn--primary"
+          }
+        },
+        "kicker_qDntAF": {
+          "type": "kicker",
+          "settings": {
+            "kicker": "<p><strong>Free and fast delivery</strong></p>",
+            "enable_caps": true,
+            "text_size": 1
+          }
+        }
+      },
+      "block_order": [
+        "text_jdw9Ez",
+        "button_PcTnxw",
+        "kicker_qDntAF"
+      ],
+      "custom_css": [
+        ".standard__cta.hero__btn.btn--large.btn--primary {background-color: #ba353b !important; color: white !important;}"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "align_text": "text-center",
+        "color_bg": "palette--light bg--accent",
+        "width": "wrapper--narrow",
+        "padding_top": 26,
+        "padding_bottom": 44
+      }
+    },
+    "default-collection": {
+      "type": "section-collection",
+      "settings": {
+        "title": "Our Most Popular Trees",
+        "description": "",
+        "collection": "real-christmas-trees",
+        "grid": 4,
+        "limit": 8,
+        "enable_slider": true,
+        "color_bg": "palette--light bg--accent",
+        "show_view_all": true,
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "section_reviews_wDmaP7": {
+      "type": "section-reviews",
+      "blocks": {
+        "review_tgDGXi": {
+          "type": "review",
+          "settings": {
+            "title": "\"Wow, just wow!!!!\"",
+            "job": "Wendy, Online Order",
+            "stars": 5,
+            "text": "<p>Wow, just wow!!!! Ordered my tree at 3pm and it was delivered at 10am the next morning. Absolutely perfect size, shape and in perfect condition. I loved the packaging with all the eco and helpful hints! Just so impressed, well definitely place an order with We Tree Kings next year! </p>"
+          }
+        },
+        "review_RdBLce": {
+          "type": "review",
+          "settings": {
+            "title": "\"Beautiful trees and quality\"",
+            "job": "Karen, Stratford Upon Avon",
+            "stars": 5,
+            "text": "<p>Have used We Tree Kings for a few years now and have been amazed at the beautiful trees and the quality. This Christmas mine was in the house for 3 weeks and barely shed a needle and still looked great right up to the last day of Christmas. The value for money is exceptional and I would have no hesitation buying from them every year. </p>"
+          }
+        },
+        "review_qVaDxN": {
+          "type": "review",
+          "settings": {
+            "title": "\"Amazing!!\"",
+            "job": "Tracey, Northampton",
+            "stars": 5,
+            "text": "<p>We have been going to central (Morrisons) in Northampton every year to get our Xmas Tree from We Tree Kings only because the guy there who sells them is amazing !! He has the best customer service we have ever experienced. He makes the Xmas Tree buying a joyful ritual for us each year and we make an event of it. Great Service and Great Trees and a Great Experience.</p>"
+          }
+        },
+        "review_VH3bjy": {
+          "type": "review",
+          "settings": {
+            "title": "\"Very happy\"",
+            "job": "Stephen, Leamington Spa",
+            "stars": 5,
+            "text": "<p>We recently purchased our Christmas tree for this year from \"We Three Kings\" working out of Morrison's Car Park, Leamington Spa. They offered a good selection of trees even though we had left the purchase a little later than planned and others had very limited trees on offer. We found the staff very helpful and we were also pleased to find the pricing to be competitive. Very happy with the experience, the tree is up and everyone is happy. Let the festivities begin!</p>"
+          }
+        }
+      },
+      "block_order": [
+        "review_tgDGXi",
+        "review_RdBLce",
+        "review_qVaDxN",
+        "review_VH3bjy"
+      ],
+      "custom_css": [],
+      "name": "Testimonials",
+      "settings": {
+        "title": "Serving Thousands of Happy Customers Every Year.",
+        "description": "<p>Online and from sites across the Midlands and Yorkshire.</p>",
+        "grid": 3,
+        "background_color": "palette--light bg--accent",
+        "width": "wrapper",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "2365df1c-a5c7-4725-860c-04b56ab67c4b": {
+      "type": "section-row",
+      "custom_css": [
+        ".h1,.h2,.h3,p,div {text-align: center !important;}"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/staff_training-10.jpg",
+        "shape": "none",
+        "aspect_ratio": 1,
+        "layout": "left",
+        "title": "Family-run Business",
+        "text_size": 7,
+        "text": "<p>We are passionate about Christmas and are dedicated to sourcing and selling the highest quality real Christmas trees – hand-selected and freshly cut.  We Tree Kings sell Christmas trees from our sites across the Midlands and Yorkshire, as well as delivering trees nationwide.</p>",
+        "color_text_bg": "palette--light bg--neutral",
+        "button_label": "Learn more",
+        "button_link": "shopify://pages/about",
+        "button_style": "btn",
+        "button_color": "btn--primary",
+        "color_bg": "palette--light bg--accent",
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "cd481572-be39-4347-b05a-12146eb1ed4b": {
+      "type": "section-icons",
+      "blocks": {
+        "template--18333344268577__cd481572-be39-4347-b05a-12146eb1ed4b-167968190891f4fce2-2": {
+          "type": "icon_block",
+          "settings": {
+            "icon_name": "icon-star-rating",
+            "icon_alt": "shopify://shop_images/Untitled_design_28.png",
+            "icon_color": "#2d5930",
+            "title": "Our Ethos",
+            "text": "<p>We proudly offer real Christmas trees grown right here in the UK! By choosing our trees, you're not only getting a top-notch holiday centrepiece but also supporting wonderful local businesses.</p>"
+          }
+        },
+        "template--18333344268577__cd481572-be39-4347-b05a-12146eb1ed4b-167968190891f4fce2-1": {
+          "type": "icon_block",
+          "settings": {
+            "icon_name": "icon-leaf",
+            "icon_alt": "shopify://shop_images/Untitled_design_27.png",
+            "icon_color": "#2d5930",
+            "title": "Our Tree Farmers",
+            "text": "<p>We maintain partnerships with Christmas tree growers throughout the UK. The families that grow our trees are close friends, and whenever we visit, a warm welcome awaits us.</p>"
+          }
+        },
+        "template--18333344268577__cd481572-be39-4347-b05a-12146eb1ed4b-167968190891f4fce2-0": {
+          "type": "icon_block",
+          "settings": {
+            "icon_name": "icon-earth",
+            "icon_alt": "shopify://shop_images/Untitled_design_26.png",
+            "icon_color": "#2d5930",
+            "title": "Sustainable & Eco Friendly",
+            "text": "<p>We aim to be a sustainable and eco-friendly company. During the Christmas period our intention is to offset any carbon produced by the amount of trees that we grow throughout the year.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--18333344268577__cd481572-be39-4347-b05a-12146eb1ed4b-167968190891f4fce2-2",
+        "template--18333344268577__cd481572-be39-4347-b05a-12146eb1ed4b-167968190891f4fce2-1",
+        "template--18333344268577__cd481572-be39-4347-b05a-12146eb1ed4b-167968190891f4fce2-0"
+      ],
+      "settings": {
+        "bg": "palette--light bg--accent",
+        "icon_size": "icon--medium",
+        "show_icon_bg": true,
+        "alignment": "text-center",
+        "grid": 3,
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "section_hero_ciMicU": {
+      "type": "section-hero",
+      "blocks": {
+        "heading_xywkmT": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Ready to find your perfect tree?</p>",
+            "text_size": 7
+          }
+        },
+        "text_UUYwdT": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Head to the shop to view our range</p>",
+            "text_size": 3,
+            "text_columns": 1
+          }
+        },
+        "button_c3zeCy": {
+          "type": "button",
+          "settings": {
+            "button_text": "Find your perfect tree",
+            "button_url": "",
+            "button_size": "btn--large",
+            "button_style": "hero__btn btn",
+            "button_color": "btn--primary"
+          }
+        }
+      },
+      "block_order": [
+        "heading_xywkmT",
+        "text_UUYwdT",
+        "button_c3zeCy"
+      ],
+      "name": "Image banner",
+      "settings": {
+        "image": "shopify://shop_images/WTK_edit_5_12_24-44.jpg",
+        "mobile_image": "shopify://shop_images/WTK_edit_5_12_24-44.jpg",
+        "height": "use_screen_one_fifth",
+        "overlay_opacity": 30,
+        "overlay_color": "#000000",
+        "flex_align": "align--middle-center",
+        "align_text": "text-center",
+        "color": "text--white",
+        "color_bg": "hero__content--transparent",
+        "width": "wrapper--none",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "default-banner",
+    "section_text_a6YBMF",
+    "default-collection",
+    "section_reviews_wDmaP7",
+    "2365df1c-a5c7-4725-860c-04b56ab67c4b",
+    "cd481572-be39-4347-b05a-12146eb1ed4b",
+    "section_hero_ciMicU"
+  ]
+}

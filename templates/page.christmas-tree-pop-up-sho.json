@@ -1,0 +1,513 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "section_text_PNC6nf": {
+      "type": "section-text",
+      "blocks": {
+        "kicker_LaccjD": {
+          "type": "kicker",
+          "settings": {
+            "kicker": "<p>Welcome to We Tree Kings</p>",
+            "enable_caps": false,
+            "text_size": 5
+          }
+        },
+        "heading_E9DL8r": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Our Christmas Tree Pop Up Shops</p>",
+            "text_size": 9
+          }
+        }
+      },
+      "block_order": [
+        "kicker_LaccjD",
+        "heading_E9DL8r"
+      ],
+      "disabled": true,
+      "name": "Rich text",
+      "settings": {
+        "align_text": "text-left",
+        "color_bg": "palette--light bg--neutral",
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "section_hero_yNEDxW": {
+      "type": "section-hero",
+      "blocks": {
+        "heading_YbqV96": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Christmas Tree Pop Ups</p>",
+            "text_size": 10
+          }
+        },
+        "text_ngNE6k": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>This area is used to describe your store</p>",
+            "text_size": 6,
+            "text_columns": 1
+          }
+        },
+        "button_B9CFKJ": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_text": "Learn More",
+            "button_url": "",
+            "button_size": "btn--large",
+            "button_style": "hero__btn btn",
+            "button_color": "btn--white"
+          }
+        }
+      },
+      "block_order": [
+        "heading_YbqV96",
+        "text_ngNE6k",
+        "button_B9CFKJ"
+      ],
+      "name": "Image banner",
+      "settings": {
+        "image": "shopify://shop_images/WTK_edit_5_12_24-54.jpg",
+        "height": "use_screen_one_third",
+        "overlay_opacity": 30,
+        "overlay_color": "#000000",
+        "flex_align": "align--middle-center",
+        "align_text": "text-center",
+        "color": "text--white",
+        "color_bg": "hero__content--transparent",
+        "width": "wrapper",
+        "padding_top": 20,
+        "padding_bottom": 0
+      }
+    },
+    "section_text_PTtWRy": {
+      "type": "section-text",
+      "blocks": {
+        "kicker_GdNn44": {
+          "type": "kicker",
+          "disabled": true,
+          "settings": {
+            "kicker": "<p>Store locator</p>",
+            "enable_caps": false,
+            "text_size": 5
+          }
+        },
+        "heading_iqhqag": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Store locator</p>",
+            "text_size": 9
+          }
+        },
+        "text_jk94Rj": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Find your nearest Christmas tree pop-up shop</p>",
+            "text_size": 5,
+            "text_columns": 1
+          }
+        },
+        "button_an8ixd": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_text": "Learn More",
+            "button_url": "",
+            "button_size": "btn--large",
+            "button_style": "hero__btn btn--soft",
+            "button_color": "btn--primary"
+          }
+        }
+      },
+      "block_order": [
+        "kicker_GdNn44",
+        "heading_iqhqag",
+        "text_jk94Rj",
+        "button_an8ixd"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "align_text": "text-left",
+        "color_bg": "palette--light bg--neutral",
+        "width": "wrapper",
+        "padding_top": 54,
+        "padding_bottom": 0
+      }
+    },
+    "175727100652ae1e01": {
+      "type": "apps",
+      "blocks": {
+        "s_store_locator_storeify_storelocator_NWDmtQ": {
+          "type": "shopify://apps/s-store-locator/blocks/storeify-storelocator/e7003487-cc51-4321-9488-2c47c07a5b17",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "s_store_locator_storeify_storelocator_NWDmtQ"
+      ],
+      "settings": {
+        "color_bg": "palette--light bg--neutral",
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 0
+      }
+    },
+    "main": {
+      "type": "page-default",
+      "disabled": true,
+      "settings": {
+        "show_title": false,
+        "show_content": true,
+        "alignment": "text-left",
+        "page_nav": "",
+        "bg": "palette--light bg--neutral",
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "section_row_Wh3rGD": {
+      "type": "section-row",
+      "custom_css": [
+        ".h1,.h2,.h3,p,div {text-align: center !important;}"
+      ],
+      "name": "Image with text",
+      "settings": {
+        "image": "shopify://shop_images/WTK_edit_5_12_24-34.jpg",
+        "shape": "none",
+        "aspect_ratio": 1,
+        "layout": "left",
+        "title": "Pick your perfect tree",
+        "text_size": 7,
+        "text": "<p>Every winter, We Tree Kings is thrilled to bring the enchantment of our Pop-Up Christmas tree shops to communities across the Midlands, Yorkshire and the North East.</p><p>Our Pop-Ups have become a beloved tradition, giving families, friends, and holiday fanatics a beautiful selection of handpicked trees and seasonal vibes in their local communities.</p><p>Come and soak in the festive spirit and find the perfect tree.</p>",
+        "color_text_bg": "palette--light bg--neutral",
+        "button_label": "Find a Pop-Up Shop",
+        "button_link": "shopify://collections/real-christmas-trees",
+        "button_style": "btn",
+        "button_color": "btn--primary",
+        "color_bg": "palette--light bg--accent",
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 60
+      }
+    },
+    "section_team_WEEmAP": {
+      "type": "section-team",
+      "blocks": {
+        "person_n48Tk6": {
+          "type": "person",
+          "settings": {
+            "image": "shopify://shop_images/NordmannFir1x1.png",
+            "title": "Nordmann Fir",
+            "job": "Non-Drop",
+            "text": "<p><strong>From £33</strong></p>",
+            "social_instagram_link": "",
+            "social_tiktok_link": "",
+            "social_snapchat_link": "",
+            "social_twitter_link": "",
+            "social_facebook_link": "",
+            "social_pinterest_link": "",
+            "social_linkedin_link": "",
+            "social_tumblr_link": "",
+            "social_youtube_link": "",
+            "social_vimeo_link": "",
+            "custom_social_link_1": "",
+            "custom_social_link_2": "",
+            "custom_social_link_3": ""
+          }
+        },
+        "person_hFjpyz": {
+          "type": "person",
+          "settings": {
+            "image": "shopify://shop_images/NorwaySpruce1x1.png",
+            "title": "Norway Spruce",
+            "job": "Outdoor/Indoor",
+            "text": "<p><strong>From £19</strong></p>",
+            "social_instagram_link": "",
+            "social_tiktok_link": "",
+            "social_snapchat_link": "",
+            "social_twitter_link": "",
+            "social_facebook_link": "",
+            "social_pinterest_link": "",
+            "social_linkedin_link": "",
+            "social_tumblr_link": "",
+            "social_youtube_link": "",
+            "social_vimeo_link": "",
+            "custom_social_link_1": "",
+            "custom_social_link_2": "",
+            "custom_social_link_3": ""
+          }
+        },
+        "person_k6YGYN": {
+          "type": "person",
+          "settings": {
+            "image": "shopify://shop_images/Nordmann_Pot_Grown_1x1_a92caf27-39dd-4391-bc0a-557df84d14d2.png",
+            "title": "Nordmann Fir",
+            "job": "Pot-Grown",
+            "text": "<p><strong>From £39</strong></p>",
+            "social_instagram_link": "",
+            "social_tiktok_link": "",
+            "social_snapchat_link": "",
+            "social_twitter_link": "",
+            "social_facebook_link": "",
+            "social_pinterest_link": "",
+            "social_linkedin_link": "",
+            "social_tumblr_link": "",
+            "social_youtube_link": "",
+            "social_vimeo_link": "",
+            "custom_social_link_1": "",
+            "custom_social_link_2": "",
+            "custom_social_link_3": ""
+          }
+        }
+      },
+      "block_order": [
+        "person_n48Tk6",
+        "person_hFjpyz",
+        "person_k6YGYN"
+      ],
+      "name": "Team",
+      "settings": {
+        "title": "Our selection",
+        "description": "<p>You can find our impressive selection of premium, fresh cut real Christmas trees across our sites in the midlands, Yorkshire and the North East. </p>",
+        "grid": 3,
+        "bg": "palette--light bg--neutral",
+        "enable_slider": true,
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "section_team_MGttg8": {
+      "type": "section-team",
+      "blocks": {
+        "person_VaHcbk": {
+          "type": "person",
+          "settings": {
+            "image": "shopify://shop_images/Fraser_Fir_1x1_74c2cd54-dbe6-42eb-9c20-bb11d85ceff0.png",
+            "title": "Fraser Fir",
+            "job": "Non-Drop",
+            "text": "<p><strong>From £55</strong></p>",
+            "social_instagram_link": "",
+            "social_tiktok_link": "",
+            "social_snapchat_link": "",
+            "social_twitter_link": "",
+            "social_facebook_link": "",
+            "social_pinterest_link": "",
+            "social_linkedin_link": "",
+            "social_tumblr_link": "",
+            "social_youtube_link": "",
+            "social_vimeo_link": "",
+            "custom_social_link_1": "",
+            "custom_social_link_2": "",
+            "custom_social_link_3": ""
+          }
+        },
+        "person_GDb6V9": {
+          "type": "person",
+          "settings": {
+            "image": "shopify://shop_images/Norway_Spruce_Pot_Grown_1x1_740b4b95-f006-41c1-89b0-5ac0e5c4c336.png",
+            "title": "Norway Spruce",
+            "job": "Pot-Grown",
+            "text": "<p><strong>From £39</strong></p>",
+            "social_instagram_link": "",
+            "social_tiktok_link": "",
+            "social_snapchat_link": "",
+            "social_twitter_link": "",
+            "social_facebook_link": "",
+            "social_pinterest_link": "",
+            "social_linkedin_link": "",
+            "social_tumblr_link": "",
+            "social_youtube_link": "",
+            "social_vimeo_link": "",
+            "custom_social_link_1": "",
+            "custom_social_link_2": "",
+            "custom_social_link_3": ""
+          }
+        },
+        "person_UXipP7": {
+          "type": "person",
+          "settings": {
+            "image": "shopify://shop_images/NobleFir1x1.png",
+            "title": "Noble Fir",
+            "job": "Non-Drop",
+            "text": "<p><strong>From £65</strong></p>",
+            "social_instagram_link": "",
+            "social_tiktok_link": "",
+            "social_snapchat_link": "",
+            "social_twitter_link": "",
+            "social_facebook_link": "",
+            "social_pinterest_link": "",
+            "social_linkedin_link": "",
+            "social_tumblr_link": "",
+            "social_youtube_link": "",
+            "social_vimeo_link": "",
+            "custom_social_link_1": "",
+            "custom_social_link_2": "",
+            "custom_social_link_3": ""
+          }
+        }
+      },
+      "block_order": [
+        "person_VaHcbk",
+        "person_GDb6V9",
+        "person_UXipP7"
+      ],
+      "name": "Team",
+      "settings": {
+        "title": "",
+        "description": "",
+        "grid": 3,
+        "bg": "palette--light bg--neutral",
+        "enable_slider": true,
+        "width": "wrapper",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "section_reviews_CRdhQ4": {
+      "type": "section-reviews",
+      "blocks": {
+        "review_Y73xAD": {
+          "type": "review",
+          "settings": {
+            "title": "\"Beautiful trees and quality\"",
+            "job": "Karen, Stratford Upon Avon",
+            "stars": 5,
+            "text": "<p>Have used We Tree Kings for a few years now and have been amazed at the beautiful trees and the quality. This Christmas mine was in the house for 3 weeks and barely shed a needle and still looked great right up to the last day of Christmas. The value for money is exceptional and I would have no hesitation buying from them every year.</p>"
+          }
+        },
+        "review_dkCNMx": {
+          "type": "review",
+          "settings": {
+            "title": "\"Amazing!!\"",
+            "job": "Tracey, Northampton",
+            "stars": 5,
+            "text": "<p>We have been going to central (Morrisons) in Northampton every year to get our Xmas Tree from We Tree Kings only because the guy there who sells them is amazing !! He has the best customer service we have ever experienced. He makes the Xmas Tree buying a joyful ritual for us each year and we make an event of it. Great Service and Great Trees and a Great Experience.</p>"
+          }
+        },
+        "review_eDTRem": {
+          "type": "review",
+          "settings": {
+            "title": "\"Very happy\"",
+            "job": "Stephen, Leamington Spa",
+            "stars": 5,
+            "text": "<p>We recently purchased our Christmas tree for this year from \"We Three Kings\" working out of Morrison's Car Park, Leamington Spa. They offered a good selection of trees even though we had left the purchase a little later than planned and others had very limited trees on offer. We found the staff very helpful and we were also pleased to find the pricing to be competitive. Very happy with the experience, the tree is up and everyone is happy. Let the festivities begin!</p>"
+          }
+        },
+        "review_nAx7PT": {
+          "type": "review",
+          "settings": {
+            "title": "Testimonial name",
+            "job": "Founder, Company",
+            "stars": 5,
+            "text": "<p>Use this text to showcase a review from one of your customers.  A great review is honest and relatable.  A great reviewer is a person who represents your target audience and can speak to concerns that might block your customers from buying.</p>"
+          }
+        },
+        "review_nmBqVf": {
+          "type": "review",
+          "settings": {
+            "title": "Testimonial name",
+            "job": "Founder, Company",
+            "stars": 5,
+            "text": "<p>Use this text to showcase a review from one of your customers.  A great review is honest and relatable.  A great reviewer is a person who represents your target audience and can speak to concerns that might block your customers from buying.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "review_Y73xAD",
+        "review_dkCNMx",
+        "review_eDTRem",
+        "review_nAx7PT",
+        "review_nmBqVf"
+      ],
+      "name": "Testimonials",
+      "settings": {
+        "title": "Serving Thousands of Happy Customers Every Year.",
+        "description": "",
+        "grid": 3,
+        "background_color": "palette--dark bg--invert--accent",
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 28
+      }
+    },
+    "section_row_f8c9Ne": {
+      "type": "section-row",
+      "custom_css": [
+        ".h1,.h2,.h3,p,div {text-align: center !important;}"
+      ],
+      "name": "Image with text",
+      "settings": {
+        "image": "shopify://shop_images/WTK_edit_5_12_24-73.jpg",
+        "shape": "none",
+        "aspect_ratio": 1,
+        "layout": "right",
+        "title": "What you'll find",
+        "text_size": 7,
+        "text": "<p><strong>A Handpicked Selection of Premium Cut Trees:</strong></p><p>Discover the best Nordmann Firs, Fraser Firs, Noble Firs, and more, each hand-selected by a team of Christmas tree aficionados. Whether you’re looking for a grand centrepiece or a small, cozy tree, we have trees of all shapes and sizes to suit any space.</p><p><strong>Pot-Grown Trees:</strong></p><p>For the more eco-conscious amongst us, We Tree Kings pride ourselves on a fantastic assortment of Pot-Grown Trees of all species, shapes and sizes. </p><p><strong>Stands & Accessories:</strong></p><p>Keep your tree fresh and full of cheer all season with our water-holding tree stands and accessories.</p>",
+        "color_text_bg": "palette--light bg--accent",
+        "button_label": "Find a Pop-Up Shop",
+        "button_link": "shopify://pages/contact",
+        "button_style": "btn",
+        "button_color": "btn--primary",
+        "color_bg": "palette--light bg--accent",
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 60
+      }
+    },
+    "section_row_a6tU4K": {
+      "type": "section-row",
+      "custom_css": [
+        ".h1,.h2,.h3,p,div {text-align: center !important;}"
+      ],
+      "name": "Image with text",
+      "settings": {
+        "image": "shopify://shop_images/WTK_edit_5_12_24-53_4dc07f62-b7cd-4c03-ab3e-3a7c2b0f9525.jpg",
+        "shape": "none",
+        "aspect_ratio": 1,
+        "layout": "left",
+        "title": "Why choose We Tree Kings?",
+        "text_size": 7,
+        "text": "<p>With a decade of experience, We Tree Kings is more than just Christmas trees – we are creators of holiday experiences.</p><p>At each Pop-Up Shop our friendly, knowledgeable staff are on hand to help you find the perfect tree and provide expert advice on tree care and decoration.</p><p>There’s a reason our reviews are so bloomin’ good!</p>",
+        "color_text_bg": "palette--light bg--accent",
+        "button_label": "Find a Pop-Up Shop",
+        "button_link": "shopify://pages/contact",
+        "button_style": "btn",
+        "button_color": "btn--primary",
+        "color_bg": "palette--light bg--neutral",
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 60
+      }
+    }
+  },
+  "order": [
+    "section_text_PNC6nf",
+    "section_hero_yNEDxW",
+    "section_text_PTtWRy",
+    "175727100652ae1e01",
+    "main",
+    "section_row_Wh3rGD",
+    "section_team_WEEmAP",
+    "section_team_MGttg8",
+    "section_reviews_CRdhQ4",
+    "section_row_f8c9Ne",
+    "section_row_a6tU4K"
+  ]
+}

@@ -1,0 +1,318 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "product",
+      "blocks": {
+        "d9f6f53e-eaa1-4e9e-8551-16389645bfd3": {
+          "type": "tag",
+          "settings": {
+            "text": "Pot Grown",
+            "button_size": "btn--small",
+            "button_style": "btn",
+            "button_color": "btn--secondary",
+            "padding_bottom": 8
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+            "navigation": "none",
+            "text_size": 7,
+            "product_show_cutline": true,
+            "show_rating": true,
+            "show_rating_count": true,
+            "padding_bottom": 8
+          }
+        },
+        "c70cf2cf-7999-40ca-88c5-1cb9476a6f31": {
+          "type": "price",
+          "settings": {
+            "padding_bottom": 8
+          }
+        },
+        "siblings": {
+          "type": "siblings",
+          "settings": {
+            "siblings_collection": "",
+            "cutline": "",
+            "padding_bottom": 8
+          }
+        },
+        "1bb8bfc8-adf2-45f9-8f88-53227bae55b5": {
+          "type": "icon",
+          "settings": {
+            "icon_name": "icon-leaf",
+            "icon_size": 20,
+            "icon_color": "#559951",
+            "show_icon_bg": false,
+            "text": "<p>Symmetrical bushy shape</p>",
+            "padding_bottom": 8
+          }
+        },
+        "773d62fd-1199-4eca-812c-55c53bdc427d": {
+          "type": "icon",
+          "settings": {
+            "icon_name": "icon-star-rating",
+            "icon_size": 20,
+            "icon_color": "#559951",
+            "show_icon_bg": false,
+            "text": "<p>Long, soft needles - perfect for pets and kids, excellent needle retention</p>",
+            "padding_bottom": 8
+          }
+        },
+        "f6d90883-e15e-488e-8a2c-6da81ccdb278": {
+          "type": "icon",
+          "settings": {
+            "icon_name": "icon-rating",
+            "icon_size": 20,
+            "icon_color": "#559951",
+            "show_icon_bg": false,
+            "text": "<p>Subtle Christmassy scent</p>",
+            "padding_bottom": 8
+          }
+        },
+        "47bcec6a-6d01-488f-9419-26c5f69d40bb": {
+          "type": "icon",
+          "settings": {
+            "icon_name": "icon-earth",
+            "icon_size": 20,
+            "icon_color": "#559951",
+            "show_icon_bg": false,
+            "text": "<p>Complete root system giving best chance of living for many years to come.</p>",
+            "padding_bottom": 8
+          }
+        },
+        "form": {
+          "type": "form",
+          "settings": {
+            "variant_form": "auto",
+            "show_quantity": true,
+            "show_remaining": true,
+            "enable_payment_button": true,
+            "enable_gift_card_recipient": true,
+            "option_size_swatch": 34,
+            "subscriptions_enable_selectors": true,
+            "info_page": "",
+            "padding_bottom": 8
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+            "read_more": true,
+            "style": "accordions",
+            "description_icon": "",
+            "title_1": "",
+            "icon_name_1": "",
+            "raw_content_1": "",
+            "title_2": "",
+            "icon_name_2": "",
+            "raw_content_2": "",
+            "title_3": "",
+            "icon_name_3": "",
+            "raw_content_3": "",
+            "title_4": "",
+            "icon_name_4": "",
+            "raw_content_4": "",
+            "title_5": "",
+            "icon_name_5": "",
+            "raw_content_5": "",
+            "padding_bottom": 8
+          }
+        },
+        "upsell": {
+          "type": "upsell",
+          "settings": {
+            "product": "",
+            "padding_bottom": 8
+          }
+        },
+        "pickup": {
+          "type": "pickup",
+          "settings": {
+            "padding_bottom": 8
+          }
+        },
+        "c8801657-aade-4756-9aad-c2de47ee5f74": {
+          "type": "complimentary",
+          "disabled": true,
+          "settings": {
+            "complimentary_list_limit": 1,
+            "padding_bottom": 8
+          }
+        },
+        "sharing": {
+          "type": "sharing",
+          "disabled": true,
+          "settings": {
+            "share_label": "Share",
+            "padding_bottom": 8
+          }
+        }
+      },
+      "block_order": [
+        "d9f6f53e-eaa1-4e9e-8551-16389645bfd3",
+        "title",
+        "c70cf2cf-7999-40ca-88c5-1cb9476a6f31",
+        "siblings",
+        "1bb8bfc8-adf2-45f9-8f88-53227bae55b5",
+        "773d62fd-1199-4eca-812c-55c53bdc427d",
+        "f6d90883-e15e-488e-8a2c-6da81ccdb278",
+        "47bcec6a-6d01-488f-9419-26c5f69d40bb",
+        "form",
+        "description",
+        "upsell",
+        "pickup",
+        "c8801657-aade-4756-9aad-c2de47ee5f74",
+        "sharing"
+      ],
+      "settings": {
+        "bg": "palette--light bg--neutral",
+        "product_sticky_enable": true,
+        "image_layout": "thumbnails",
+        "enable_video_looping": true,
+        "zoom_enable": true,
+        "width": "wrapper",
+        "padding_top": 64,
+        "padding_bottom": 64
+      }
+    },
+    "image-left": {
+      "type": "section-row",
+      "settings": {
+        "shape": "none",
+        "aspect_ratio": 1,
+        "layout": "left",
+        "title": "Pro Tips",
+        "text_size": 7,
+        "text": "<p>Remember that taking care of a houseplant is an ongoing process, so make sure to check in on your plant regularly and adjust its care as needed. With a little attention and effort, you can help your houseplant thrive and beautify your living space for years to come.</p>",
+        "color_text_bg": "palette--light bg--accent",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "btn",
+        "button_color": "btn--neutral",
+        "color_bg": "palette--light bg--neutral",
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 0
+      }
+    },
+    "image-right": {
+      "type": "section-row",
+      "settings": {
+        "shape": "none",
+        "aspect_ratio": 1,
+        "layout": "right",
+        "title": "Virtual Plant Care Appointments",
+        "text_size": 7,
+        "text": "<p>Make sure your plants are healthy and thriving! Our experts can assess the condition of your plants and advise you on the best way to take care of them. This may include giving instructions on watering, pruning, and fertilizing, as well as identifying any pests or diseases that may be affecting your plants. The appointment also provides a great opportunity to ask questions about plants and get advice on which varieties are best for your home. With the proper care, your plants will continue to bring beauty and life to your home.</p>",
+        "color_text_bg": "palette--light bg--accent",
+        "button_label": "Schedule now",
+        "button_link": "shopify://pages/contact",
+        "button_style": "btn",
+        "button_color": "btn--primary",
+        "color_bg": "palette--light bg--neutral",
+        "width": "wrapper",
+        "padding_top": 24,
+        "padding_bottom": 36
+      }
+    },
+    "a45851fc-d828-4870-891f-b85c7e1aa911": {
+      "type": "section-accordion",
+      "blocks": {
+        "template--18333344956705__a45851fc-d828-4870-891f-b85c7e1aa911-16799306486c6e0874-0": {
+          "type": "text",
+          "settings": {
+            "title": "How do I take care of my plant?",
+            "content": "<p>We're happy to help answer any questions you may have on plant care. Feel free to get in touch.</p><p>Here are the basics:</p><ul><li>Water regularly. Depending on your plant’s needs, you should water it regularly to keep the soil moist but not soggy.</li><li>Fertilize. Feed your plants with a balanced liquid fertilizer every two to four weeks to provide them with necessary nutrients.</li><li>Prune. Trim and prune the plant as needed to maintain its shape and size.</li><li>Monitor for pests. Check your plants regularly for signs of disease and pests so that you can address any problems early on.</li><li>Repot. Repot your plants every two to three years to ensure they have enough room to grow.</li></ul>"
+          }
+        },
+        "template--18333344956705__a45851fc-d828-4870-891f-b85c7e1aa911-16799306486c6e0874-1": {
+          "type": "text",
+          "settings": {
+            "title": "How do I know if my plant is sad?",
+            "content": "<p>Here are some things to look for to determine if your plant needs attention:</p><ol><li>Wilting or drooping leaves: This could indicate that the plant is not getting enough water or is getting too much water. Make sure to check the soil moisture level and adjust your watering schedule accordingly.</li><li>Yellowing leaves: Yellowing leaves can be a sign of many things, such as nutrient deficiencies or overwatering. Try to identify the cause of the yellowing and address it accordingly.</li><li>Brown or dry leaves: Brown or dry leaves can indicate that the plant is not getting enough water, or it may be getting too much direct sunlight. Move the plant to a shadier spot or adjust your watering schedule if necessary.</li><li>Stunted growth: If your plant is not growing as quickly as it should, it may be a sign of nutrient deficiencies or poor soil quality. Consider fertilizing the plant or repotting it with fresh soil.</li></ol><p>Overall, keeping an eye on your plant's appearance and behavior can help you determine if it needs attention or adjustments in its care.</p>"
+          }
+        },
+        "template--18333344956705__a45851fc-d828-4870-891f-b85c7e1aa911-16799306486c6e0874-2": {
+          "type": "text",
+          "settings": {
+            "title": "When will my plant arrive?",
+            "content": "<p>Delivery time depends on the shipping method chosen at checkout. Standard shipping usually takes 5-7 business days, while expedited shipping takes 2-3 business days. Please note that delivery times may vary due to unforeseen circumstances such as weather or carrier delays.</p><p>We package our plants with care to ensure they arrive in the best possible condition. Plants are placed in sturdy boxes with protective materials to prevent damage during shipping.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--18333344956705__a45851fc-d828-4870-891f-b85c7e1aa911-16799306486c6e0874-0",
+        "template--18333344956705__a45851fc-d828-4870-891f-b85c7e1aa911-16799306486c6e0874-1",
+        "template--18333344956705__a45851fc-d828-4870-891f-b85c7e1aa911-16799306486c6e0874-2"
+      ],
+      "settings": {
+        "title": "",
+        "align_text": "text-left",
+        "text_size": 2,
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "height": "use_screen_full",
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "recent": {
+      "type": "section-recent-products",
+      "settings": {
+        "product_recently_heading": "Recently viewed",
+        "product_recently_limit": 6,
+        "product_recently_minimum": 4,
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "related": {
+      "type": "related",
+      "settings": {
+        "related_products_enable": true,
+        "limit": 6,
+        "product_recommendations_heading": "Related products",
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "4cb6ae5b-25ed-4cf6-b81c-9fc1e1900906": {
+      "type": "section-newsletter",
+      "settings": {
+        "title": "Newsletter",
+        "richtext": "<p>Subscribe to get special offers, free giveaways, and once-in-a-lifetime deals.  We promise to send emails you will love.</p>",
+        "success": "Success! Use code CLUB10 to save 10%",
+        "text_color": "text--neutral",
+        "color_bg": "palette--light bg--neutral",
+        "button_color": "btn--secondary",
+        "button_style": "btn--soft",
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image-left",
+    "image-right",
+    "a45851fc-d828-4870-891f-b85c7e1aa911",
+    "recent",
+    "related",
+    "4cb6ae5b-25ed-4cf6-b81c-9fc1e1900906"
+  ]
+}

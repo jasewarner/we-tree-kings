@@ -1,0 +1,117 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "section_text_iC9E6q": {
+      "type": "section-text",
+      "blocks": {
+        "kicker_jL4eBW": {
+          "type": "kicker",
+          "disabled": true,
+          "settings": {
+            "kicker": "<p>Real, fresh cut Christmas Trees</p>",
+            "enable_caps": false,
+            "text_size": 5
+          }
+        },
+        "heading_pneVYw": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Convenient delivery of your perfect Christmas Tree</p>",
+            "text_size": 9
+          }
+        },
+        "text_GAzHNb": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>We are passionate about Christmas and are dedicated to sourcing and selling the highest quality real Christmas trees – hand-selected and freshly cut. </p>",
+            "text_size": 5,
+            "text_columns": 1
+          }
+        }
+      },
+      "block_order": [
+        "kicker_jL4eBW",
+        "heading_pneVYw",
+        "text_GAzHNb"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "align_text": "text-left",
+        "color_bg": "palette--light bg--accent",
+        "width": "wrapper",
+        "padding_top": 10,
+        "padding_bottom": 0
+      }
+    },
+    "banner": {
+      "type": "collection-banner",
+      "blocks": {
+        "collections": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "text_size": 9
+          }
+        },
+        "filters": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text_size": 5
+          }
+        }
+      },
+      "block_order": [
+        "collections",
+        "filters"
+      ],
+      "disabled": true,
+      "settings": {
+        "flex_align": "align--middle-left",
+        "show_title_below": false,
+        "show_description_below": false,
+        "show_image": true,
+        "image_height": "use_screen_one_fifth",
+        "overlay_opacity": 20,
+        "overlay_color": "#000000",
+        "color": "text--white",
+        "color_bg": "hero__content--transparent",
+        "width": "wrapper--none",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "main": {
+      "type": "collection",
+      "settings": {
+        "bg": "palette--light bg--accent",
+        "pagination_count": 12,
+        "grid_setting_large": 3,
+        "grid_setting_medium": 2,
+        "grid_setting_small": 2,
+        "show_collection_nav": true,
+        "collection_custom_nav_list": "",
+        "align_nav": "inline-nav",
+        "collection_sorting": true,
+        "filters": true,
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 64
+      }
+    }
+  },
+  "order": [
+    "section_text_iC9E6q",
+    "banner",
+    "main"
+  ]
+}
