@@ -39,6 +39,20 @@
             "padding_bottom": 8
           }
         },
+        "form": {
+          "type": "form",
+          "settings": {
+            "variant_form": "auto",
+            "show_quantity": true,
+            "show_remaining": true,
+            "enable_payment_button": true,
+            "enable_gift_card_recipient": true,
+            "option_size_swatch": 34,
+            "subscriptions_enable_selectors": true,
+            "info_page": "",
+            "padding_bottom": 8
+          }
+        },
         "siblings": {
           "type": "siblings",
           "settings": {
@@ -88,20 +102,6 @@
             "icon_color": "#559951",
             "show_icon_bg": false,
             "text": "<p>Complete root system giving best chance of living for many years to come.</p>",
-            "padding_bottom": 8
-          }
-        },
-        "form": {
-          "type": "form",
-          "settings": {
-            "variant_form": "auto",
-            "show_quantity": true,
-            "show_remaining": true,
-            "enable_payment_button": true,
-            "enable_gift_card_recipient": true,
-            "option_size_swatch": 34,
-            "subscriptions_enable_selectors": true,
-            "info_page": "",
             "padding_bottom": 8
           }
         },
@@ -163,12 +163,12 @@
         "d9f6f53e-eaa1-4e9e-8551-16389645bfd3",
         "title",
         "c70cf2cf-7999-40ca-88c5-1cb9476a6f31",
+        "form",
         "siblings",
         "1bb8bfc8-adf2-45f9-8f88-53227bae55b5",
         "773d62fd-1199-4eca-812c-55c53bdc427d",
         "f6d90883-e15e-488e-8a2c-6da81ccdb278",
         "47bcec6a-6d01-488f-9419-26c5f69d40bb",
-        "form",
         "description",
         "upsell",
         "pickup",

@@ -46,6 +46,20 @@
             "padding_bottom": 8
           }
         },
+        "form": {
+          "type": "form",
+          "settings": {
+            "variant_form": "auto",
+            "show_quantity": true,
+            "show_remaining": true,
+            "enable_payment_button": true,
+            "enable_gift_card_recipient": true,
+            "option_size_swatch": 34,
+            "subscriptions_enable_selectors": true,
+            "info_page": "",
+            "padding_bottom": 8
+          }
+        },
         "1bb8bfc8-adf2-45f9-8f88-53227bae55b5": {
           "type": "icon",
           "settings": {
@@ -125,20 +139,6 @@
           "type": "shopify://apps/dingdoong-delivery-date/blocks/app-block/65ab0a55-83b7-43d0-839b-31ed27b3a16d",
           "settings": {}
         },
-        "form": {
-          "type": "form",
-          "settings": {
-            "variant_form": "auto",
-            "show_quantity": true,
-            "show_remaining": true,
-            "enable_payment_button": true,
-            "enable_gift_card_recipient": true,
-            "option_size_swatch": 34,
-            "subscriptions_enable_selectors": true,
-            "info_page": "",
-            "padding_bottom": 8
-          }
-        },
         "text_yBCjkg": {
           "type": "text",
           "settings": {
@@ -206,6 +206,7 @@
         "title",
         "text_wF63kx",
         "c70cf2cf-7999-40ca-88c5-1cb9476a6f31",
+        "form",
         "1bb8bfc8-adf2-45f9-8f88-53227bae55b5",
         "773d62fd-1199-4eca-812c-55c53bdc427d",
         "47bcec6a-6d01-488f-9419-26c5f69d40bb",
@@ -214,7 +215,6 @@
         "upsell",
         "siblings",
         "dingdoong_delivery_date_app_block_cQiL6F",
-        "form",
         "text_yBCjkg",
         "text_Tgj3W3",
         "description",
@@ -452,37 +452,6 @@
     },
     "17558505869a9bc491": {
       "type": "apps",
-      "blocks": {
-        "flare_flare_add_to_cart_xCiaBN": {
-          "type": "shopify://apps/flare/blocks/flare_add_to_cart/6aba17cb-0d38-4558-a192-544ecffccc2e",
-          "settings": {
-            "enable_dynamic_positioning": true,
-            "product": "{{product}}",
-            "show_toggle_date_selector": false,
-            "gap_bottom": 20,
-            "gap_top": 5,
-            "date_selector_label": "Choose your estimated delivery date",
-            "date_selector_label_font_size": 15,
-            "date_selector_label_font_weight": 400,
-            "date_selector_label_color": "#000000",
-            "label_gap": 5,
-            "border_color": "#a5a5a5",
-            "border_width": 1,
-            "border_radius": 8,
-            "padding": 7,
-            "input_font_size": 15,
-            "input_font_weight": 400,
-            "input_color": "#000000",
-            "calendar_stroke_color": "#555555",
-            "input_placeholder": "As Soon As Possible (selected)",
-            "time_slot_label": "Select a time slot",
-            "selected_date_background_color": "#303030"
-          }
-        }
-      },
-      "block_order": [
-        "flare_flare_add_to_cart_xCiaBN"
-      ],
       "settings": {
         "color_bg": "palette--light bg--neutral",
         "width": "wrapper",

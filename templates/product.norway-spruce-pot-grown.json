@@ -46,6 +46,20 @@
             "padding_bottom": 8
           }
         },
+        "form": {
+          "type": "form",
+          "settings": {
+            "variant_form": "auto",
+            "show_quantity": true,
+            "show_remaining": true,
+            "enable_payment_button": true,
+            "enable_gift_card_recipient": true,
+            "option_size_swatch": 34,
+            "subscriptions_enable_selectors": true,
+            "info_page": "",
+            "padding_bottom": 8
+          }
+        },
         "773d62fd-1199-4eca-812c-55c53bdc427d": {
           "type": "icon",
           "settings": {
@@ -144,20 +158,6 @@
           "type": "shopify://apps/dingdoong-delivery-date/blocks/app-block/65ab0a55-83b7-43d0-839b-31ed27b3a16d",
           "settings": {}
         },
-        "form": {
-          "type": "form",
-          "settings": {
-            "variant_form": "auto",
-            "show_quantity": true,
-            "show_remaining": true,
-            "enable_payment_button": true,
-            "enable_gift_card_recipient": true,
-            "option_size_swatch": 34,
-            "subscriptions_enable_selectors": true,
-            "info_page": "",
-            "padding_bottom": 8
-          }
-        },
         "text_yBCjkg": {
           "type": "text",
           "settings": {
@@ -218,6 +218,7 @@
         "title",
         "text_wF63kx",
         "c70cf2cf-7999-40ca-88c5-1cb9476a6f31",
+        "form",
         "773d62fd-1199-4eca-812c-55c53bdc427d",
         "icon_WYBqEx",
         "1bb8bfc8-adf2-45f9-8f88-53227bae55b5",
@@ -228,7 +229,6 @@
         "text_izJTin",
         "siblings",
         "dingdoong_delivery_date_app_block_ayhDqC",
-        "form",
         "text_yBCjkg",
         "description",
         "pickup",

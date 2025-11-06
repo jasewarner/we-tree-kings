@@ -37,12 +37,26 @@
           "type": "text",
           "settings": {
             "title": "<p>The Nordmann Fir Christmas Tree is the UK's favourite. Ours is fresh cut and a non-drop variety so it will look good for weeks on end. </p>",
-            "padding_bottom": 8
+            "padding_bottom": 10
           }
         },
         "c70cf2cf-7999-40ca-88c5-1cb9476a6f31": {
           "type": "price",
           "settings": {
+            "padding_bottom": 8
+          }
+        },
+        "form": {
+          "type": "form",
+          "settings": {
+            "variant_form": "auto",
+            "show_quantity": true,
+            "show_remaining": true,
+            "enable_payment_button": true,
+            "enable_gift_card_recipient": true,
+            "option_size_swatch": 34,
+            "subscriptions_enable_selectors": true,
+            "info_page": "",
             "padding_bottom": 8
           }
         },
@@ -110,7 +124,7 @@
           "type": "upsell",
           "settings": {
             "product": "water-holding-tree-stand",
-            "padding_bottom": 8
+            "padding_bottom": 20
           }
         },
         "siblings": {
@@ -131,20 +145,6 @@
         "dingdoong_delivery_date_app_block_RWWc7K": {
           "type": "shopify://apps/dingdoong-delivery-date/blocks/app-block/65ab0a55-83b7-43d0-839b-31ed27b3a16d",
           "settings": {}
-        },
-        "form": {
-          "type": "form",
-          "settings": {
-            "variant_form": "auto",
-            "show_quantity": true,
-            "show_remaining": true,
-            "enable_payment_button": true,
-            "enable_gift_card_recipient": true,
-            "option_size_swatch": 34,
-            "subscriptions_enable_selectors": true,
-            "info_page": "",
-            "padding_bottom": 8
-          }
         },
         "text_yBCjkg": {
           "type": "text",
@@ -206,6 +206,7 @@
         "title",
         "text_wF63kx",
         "c70cf2cf-7999-40ca-88c5-1cb9476a6f31",
+        "form",
         "1bb8bfc8-adf2-45f9-8f88-53227bae55b5",
         "773d62fd-1199-4eca-812c-55c53bdc427d",
         "47bcec6a-6d01-488f-9419-26c5f69d40bb",
@@ -215,7 +216,6 @@
         "siblings",
         "text_9GABtn",
         "dingdoong_delivery_date_app_block_RWWc7K",
-        "form",
         "text_yBCjkg",
         "description",
         "pickup",
