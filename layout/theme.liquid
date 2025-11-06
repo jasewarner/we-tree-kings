@@ -21,6 +21,7 @@
   <link rel="preload" href="{{ 'vendor.js' | asset_url }}" as="script">
   <link rel="preload" href="{{ 'theme.js' | asset_url }}" as="script">
   <link rel="preload" href="{{ 'theme.css' | asset_url }}" as="style">
+  <link rel="preload" href="{{ 'custom.css' | asset_url }}" as="style">
 
   {% if settings.favicon != blank %}
     <link rel="shortcut icon" href="{{ settings.favicon | img_url: '32x32' }}" type="image/png">
@@ -67,6 +68,7 @@
   {% render 'css-variables' %}
 
   {{ 'theme.css' | asset_url | stylesheet_tag }}
+  {{ 'custom.css' | asset_url | stylesheet_tag }}
 
   <script>
 

@@ -14365,13 +14365,6 @@ predictive-search[open] .header__search__results {
   margin-bottom: 8px;
 }
 
-@media only screen and (max-width: 767px) {
-  .product__title-block--desktop,
-  .product__price-block--desktop {
-    display: none;
-  }
-}
-
 .shop-pay-terms {
   --payment-terms-background-color: var(--bg);
   margin: 12px 0 20px 0;

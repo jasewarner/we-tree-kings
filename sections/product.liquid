@@ -66,6 +66,7 @@
       <div class="grid__item grid__item--product medium-up--hide">
         {% for block in section.blocks %}
           {%- liquid
+            assign text = block.settings.text
             assign padding_bottom = block.settings.padding_bottom
 
             capture block_style
@@ -79,10 +80,29 @@
             endif
           -%}
           {% case block.type %}
-            {% when 'title' %}
-              {% render 'product-title', product: product, block: block, classes: ' product__title-block--mobile', block_style: block_style %}
-            {% when 'price' %}
-              {% render 'product-price', product: product, block: block, classes: ' product__price-block--mobile', block_style: block_style %}
+              {% when 'tag' %}
+                  {%- if text != blank -%}
+                      {%- liquid
+                          assign prev_index = forloop.index0 | minus: 1
+                          assign next_index = forloop.index0 | plus: 1
+                          assign prev_block = section.blocks[prev_index]
+                          assign next_block = section.blocks[next_index]
+                      -%}
+
+                      {%- if forloop.first or prev_block.type != 'tag' -%}
+                          <div class="product__tag-wrapper">
+                      {%- endif -%}
+
+                      <div class="product__block product__tag" {{ block_style }} {{ block.shopify_attributes }}>
+                        <span class="product__tag-text {{ block.settings.button_style }} {{ block.settings.button_size }} {{ block.settings.button_color }}">
+                          {{ text }}
+                        </span>
+                      </div>
+
+                      {%- if forloop.last or next_block.type != 'tag' -%}
+                          </div>
+                      {%- endif -%}
+                  {%- endif -%}
           {% endcase %}
         {% endfor %}
       </div>
@@ -369,7 +389,7 @@
                   -%}
 
                   {%- if forloop.first or prev_block.type != 'tag' -%}
-                    <div class="product__tag-wrapper">
+                    <div class="product__tag-wrapper product__tag--desktop">
                   {%- endif -%}
 
                   <div class="product__block product__tag" {{ block_style }} {{ block.shopify_attributes }}>
