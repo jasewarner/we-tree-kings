@@ -86,9 +86,6 @@
         <input type="hidden" data-product-preorder name="properties[{{ 'products.product.sale_type' | t }}]" value="{{ 'products.product.pre_order' | t }}">
       {% endif %}
 
-      {% comment %} Shop pay split payment terms {% endcomment %}
-      <div class="shop-pay-terms">{{- form | payment_terms -}}</div>
-
       {% unless product.has_only_default_variant %}
         <div
           class="form__selectors"
@@ -470,6 +467,10 @@
           {% endif %}
         </div>
       </div>
+
+    {% comment %} Shop pay split payment terms {% endcomment %}
+    <div class="shop-pay-terms">{{- form | payment_terms -}}</div>
+
       <script data-product-json type="application/json">
         {{ product | json }}
       </script>
