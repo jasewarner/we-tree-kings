@@ -7,6 +7,14 @@
     margin-top: 1.5rem;
 }
 
+.selector-wrapper {
+    margin-bottom: 1.5rem;
+}
+
+.radio__button label {
+    padding: 1rem;
+}
+
 @media screen and (max-width: 767px) {
     .product__tag--desktop {
         display: none;
