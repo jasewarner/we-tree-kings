@@ -390,6 +390,7 @@
     "upsell": {
       "add_text": "Add a",
       "get_for": "for",
+      "get_from": "from",
       "add_to_cart": "Add to cart",
       "out_of_stock": "Out of stock",
       "error_title": "Invalid product or product metafield",

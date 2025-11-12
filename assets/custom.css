@@ -19,6 +19,38 @@
     padding: 1rem;
 }
 
+.upsell__content {
+    flex: 1 0 0;
+    padding: 1rem;
+    width: auto;
+}
+
+.upsell__btn {
+    height: 2.5rem;
+    right: auto;
+    width: 2.5rem;
+}
+
+.upsell__image {
+    min-height: 60px;
+    padding: 0 .5rem;
+    width: auto;
+}
+
+.upsell__title {
+    margin-left: 1rem;
+    padding-left: 2.5rem;
+}
+
+.ot-dingdoong-main {
+    margin-bottom: 1.5rem !important;
+    padding: .5rem 0 0 !important;
+}
+
+.radio__button input:not(:checked) ~ label {
+    border-color: var(--border);
+}
+
 @media screen and (max-width: 767px) {
     .product__tag--desktop {
         display: none;

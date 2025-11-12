@@ -395,6 +395,7 @@
     "upsell": {
       "add_text": "Agrega un",
       "get_for": "por",
+      "get_from": "de",
       "add_to_cart": "Ajouter au panier",
       "out_of_stock": "Rupture de stock",
       "error_title": "Produit ou métachamp de produit non valide",

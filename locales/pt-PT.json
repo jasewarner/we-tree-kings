@@ -401,6 +401,7 @@
     "upsell": {
       "add_text": "Adicione um",
       "get_for": "para",
+      "get_from": "de",
       "add_to_cart": "Adicionar ao Carrinho",
       "out_of_stock": "Fora de estoque",
       "error_title": "Produto inválido ou meta-campo de produto",

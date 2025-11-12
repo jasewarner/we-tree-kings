@@ -390,6 +390,7 @@
     "upsell": {
       "add_text": "Tilføj en",
       "get_for": "til",
+      "get_from": "fra",
       "add_to_cart": "Tilføj til kurv",
       "out_of_stock": "Udsolgt",
       "error_title": "Ugyldigt produkt eller produktmetafelt",

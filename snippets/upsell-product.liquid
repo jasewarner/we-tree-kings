@@ -47,7 +47,7 @@
 
                 <p class="upsell__price {% unless upsell_variant.available %}hide{% endunless %} {% if upsell_variant.compare_at_price > upsell_variant.price %} sale{% endif %}">
                   <span class="new-price">
-                    {{ 'products.upsell.get_for' | t }}
+                    {{ 'products.upsell.get_from' | t }}
                     {% if settings.currency_code_enable %}
                       {{ upsell_variant.price | money_with_currency }}
                     {% else %}
@@ -147,9 +147,10 @@
                   class="upsell__image__inner"
                   loading="lazy"
                   alt="{{ upsell_image.alt | default: upsell_product.title | strip_html | escape }}"
-                  src="{{ upsell_image.src | img_url: '180x180', crop: 'center' }}"
-                  width="90"
-                  height="90"
+                  srcset="{{ upsell_image.src | img_url: '60x60', crop: 'center' }} 1x, {{ upsell_image.src | img_url: '120x120', crop: 'center' }} 2x"
+                  src="{{ upsell_image.src | img_url: '60x60', crop: 'center' }}"
+                  width="60"
+                  height="60"
                 >
               </a>
             {%- else -%}

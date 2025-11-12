@@ -391,6 +391,7 @@
     "upsell": {
       "add_text": "Voeg een",
       "get_for": "voor",
+      "get_from": "vanaf",
       "add_to_cart": "Voeg toe aan winkelkar",
       "out_of_stock": "Uitverkocht",
       "error_title": "Ongeldig product of productmetaveld",

@@ -390,6 +390,7 @@
     "upsell": {
       "add_text": "Füge hinzu ein",
       "get_for": "zum",
+      "get_from": "von",
       "add_to_cart": "In den Warenkorb legen",
       "out_of_stock": "Nicht vorrättig",
       "error_title": "Ungültiges Produkt oder Produktmetafeld",
