@@ -33,16 +33,63 @@
             "padding_bottom": 8
           }
         },
-        "text_wF63kx": {
-          "type": "text",
-          "settings": {
-            "title": "<p>Our Non-Drop Noble Fir is fresh cut and is considered the king of trees for its full and bushy appearance and fantastic scent.</p>",
-            "padding_bottom": 8
-          }
-        },
         "c70cf2cf-7999-40ca-88c5-1cb9476a6f31": {
           "type": "price",
           "settings": {
+            "padding_bottom": 8
+          }
+        },
+        "text_wF63kx": {
+          "type": "text",
+          "settings": {
+            "title": "<p>Our Non-Drop Noble Fir is fresh cut and is considered the king of trees for its full and bushy appearance and fantastic citrus scent.</p>",
+            "padding_bottom": 8
+          }
+        },
+        "1bb8bfc8-adf2-45f9-8f88-53227bae55b5": {
+          "type": "icon",
+          "settings": {
+            "icon_name": "icon-leaf",
+            "image": "shopify://shop_images/check_1.png",
+            "icon_size": 20,
+            "icon_color": "#2d5930",
+            "show_icon_bg": false,
+            "text": "<p>Excellent needle retention</p>",
+            "padding_bottom": 4
+          }
+        },
+        "47bcec6a-6d01-488f-9419-26c5f69d40bb": {
+          "type": "icon",
+          "settings": {
+            "icon_name": "icon-leaf",
+            "image": "shopify://shop_images/check_1.png",
+            "icon_size": 20,
+            "icon_color": "#2d5930",
+            "show_icon_bg": false,
+            "text": "<p>Long, soft needles - suitable for pets and kids</p>",
+            "padding_bottom": 4
+          }
+        },
+        "icon_jYRWXw": {
+          "type": "icon",
+          "settings": {
+            "icon_name": "icon-award",
+            "image": "shopify://shop_images/check_1.png",
+            "icon_size": 20,
+            "icon_color": "#060f9e",
+            "show_icon_bg": false,
+            "text": "<p>Full, layered, and bushy, a real showpiece</p>",
+            "padding_bottom": 16
+          }
+        },
+        "dingdoong_delivery_date_app_block_Gp47db": {
+          "type": "shopify://apps/dingdoong-delivery-date/blocks/app-block/65ab0a55-83b7-43d0-839b-31ed27b3a16d",
+          "settings": {}
+        },
+        "upsell": {
+          "type": "upsell",
+          "settings": {
+            "product": "water-holding-tree-stand",
             "padding_bottom": 8
           }
         },
@@ -59,84 +106,6 @@
             "info_page": "",
             "padding_bottom": 8
           }
-        },
-        "1bb8bfc8-adf2-45f9-8f88-53227bae55b5": {
-          "type": "icon",
-          "settings": {
-            "icon_name": "icon-leaf",
-            "image": "shopify://shop_images/check_1.png",
-            "icon_size": 20,
-            "icon_color": "#2d5930",
-            "show_icon_bg": false,
-            "text": "<p>Excellent needle retention</p>",
-            "padding_bottom": 4
-          }
-        },
-        "773d62fd-1199-4eca-812c-55c53bdc427d": {
-          "type": "icon",
-          "settings": {
-            "icon_name": "icon-water",
-            "image": "shopify://shop_images/check_1.png",
-            "icon_size": 20,
-            "icon_color": "#2d5930",
-            "show_icon_bg": false,
-            "text": "<p>Something extraordinary - The king of trees</p>",
-            "padding_bottom": 4
-          }
-        },
-        "47bcec6a-6d01-488f-9419-26c5f69d40bb": {
-          "type": "icon",
-          "settings": {
-            "icon_name": "icon-leaf",
-            "image": "shopify://shop_images/check_1.png",
-            "icon_size": 20,
-            "icon_color": "#2d5930",
-            "show_icon_bg": false,
-            "text": "<p>Long, soft needles - suitable for pets and kids</p>",
-            "padding_bottom": 4
-          }
-        },
-        "icon_CCDqKy": {
-          "type": "icon",
-          "settings": {
-            "icon_name": "icon-award",
-            "image": "shopify://shop_images/check_1.png",
-            "icon_size": 20,
-            "icon_color": "#2d5930",
-            "show_icon_bg": false,
-            "text": "<p>Fantastic citrus scent</p>",
-            "padding_bottom": 4
-          }
-        },
-        "icon_jYRWXw": {
-          "type": "icon",
-          "settings": {
-            "icon_name": "icon-award",
-            "image": "shopify://shop_images/check_1.png",
-            "icon_size": 20,
-            "icon_color": "#060f9e",
-            "show_icon_bg": false,
-            "text": "<p>Full, layered, and bushy, a real showpiece</p>",
-            "padding_bottom": 16
-          }
-        },
-        "text_Ae7MJz": {
-          "type": "text",
-          "settings": {
-            "title": "<p><em>Free and fast delivery</em></p>",
-            "padding_bottom": 8
-          }
-        },
-        "upsell": {
-          "type": "upsell",
-          "settings": {
-            "product": "water-holding-tree-stand",
-            "padding_bottom": 8
-          }
-        },
-        "dingdoong_delivery_date_app_block_Gp47db": {
-          "type": "shopify://apps/dingdoong-delivery-date/blocks/app-block/65ab0a55-83b7-43d0-839b-31ed27b3a16d",
-          "settings": {}
         },
         "siblings": {
           "type": "siblings",
@@ -204,17 +173,14 @@
       "block_order": [
         "d9f6f53e-eaa1-4e9e-8551-16389645bfd3",
         "title",
-        "text_wF63kx",
         "c70cf2cf-7999-40ca-88c5-1cb9476a6f31",
-        "form",
+        "text_wF63kx",
         "1bb8bfc8-adf2-45f9-8f88-53227bae55b5",
-        "773d62fd-1199-4eca-812c-55c53bdc427d",
         "47bcec6a-6d01-488f-9419-26c5f69d40bb",
-        "icon_CCDqKy",
         "icon_jYRWXw",
-        "text_Ae7MJz",
-        "upsell",
         "dingdoong_delivery_date_app_block_Gp47db",
+        "upsell",
+        "form",
         "siblings",
         "text_yBCjkg",
         "description",
@@ -226,7 +192,9 @@
         ".product__submit__add {background-color: #2d5930 !important; color: white !important;}",
         "p {font-weight: 400 !important;}",
         "em {font-weight: bold !important; font-size: 16px !important;}",
-        "[data-product-price] {font-size: 20px !important;}"
+        "[data-product-price] {font-size: 20px !important;}",
+        ".ot-dingdoong-main > div:nth-child(6) {display: none !important;}",
+        ".ot-dingdoong-main {margin-bottom: 30px;}"
       ],
       "settings": {
         "bg": "palette--light bg--accent",

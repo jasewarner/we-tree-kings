@@ -33,17 +33,64 @@
             "padding_bottom": 8
           }
         },
-        "text_wF63kx": {
-          "type": "text",
-          "settings": {
-            "title": "<p>Our Pot Grown Nordmann Fir Christmas tree is the most eco-friendly choice and has a complete root system for longevity.</p>",
-            "padding_bottom": 8
-          }
-        },
         "c70cf2cf-7999-40ca-88c5-1cb9476a6f31": {
           "type": "price",
           "settings": {
             "padding_bottom": 8
+          }
+        },
+        "text_wF63kx": {
+          "type": "text",
+          "settings": {
+            "title": "<p>Our bestselling Pot Grown Nordmann Fir is the most sustainable choice. This real potted Christmas Tree has dark green needles, excellent needle retention, and stays healthier for longer because it's grown in the pot. </p>",
+            "padding_bottom": 8
+          }
+        },
+        "773d62fd-1199-4eca-812c-55c53bdc427d": {
+          "type": "icon",
+          "settings": {
+            "icon_name": "icon-water",
+            "image": "shopify://shop_images/check_1.png",
+            "icon_size": 20,
+            "icon_color": "#2d5930",
+            "show_icon_bg": false,
+            "text": "<p>Long, soft needles - perfect for pets and kids</p>",
+            "padding_bottom": 0
+          }
+        },
+        "1bb8bfc8-adf2-45f9-8f88-53227bae55b5": {
+          "type": "icon",
+          "settings": {
+            "icon_name": "icon-leaf",
+            "image": "shopify://shop_images/check_1.png",
+            "icon_size": 20,
+            "icon_color": "#2d5930",
+            "show_icon_bg": false,
+            "text": "<p>Symmetrical bushy shape</p>",
+            "padding_bottom": 0
+          }
+        },
+        "icon_pTMLBG": {
+          "type": "icon",
+          "settings": {
+            "icon_name": "icon-award",
+            "image": "shopify://shop_images/check_1.png",
+            "icon_size": 20,
+            "icon_color": "#ffffff",
+            "show_icon_bg": false,
+            "text": "<p>Subtle Christmassy scent</p>",
+            "padding_bottom": 0
+          }
+        },
+        "dingdoong_delivery_date_app_block_n7dQVL": {
+          "type": "shopify://apps/dingdoong-delivery-date/blocks/app-block/65ab0a55-83b7-43d0-839b-31ed27b3a16d",
+          "settings": {}
+        },
+        "text_Tgj3W3": {
+          "type": "text",
+          "settings": {
+            "title": "<p>*Height includes the pot.</p>",
+            "padding_bottom": 14
           }
         },
         "form": {
@@ -60,104 +107,6 @@
             "padding_bottom": 8
           }
         },
-        "1bb8bfc8-adf2-45f9-8f88-53227bae55b5": {
-          "type": "icon",
-          "settings": {
-            "icon_name": "icon-leaf",
-            "image": "shopify://shop_images/check_1.png",
-            "icon_size": 20,
-            "icon_color": "#2d5930",
-            "show_icon_bg": false,
-            "text": "<p>Symmetrical bushy shape</p>",
-            "padding_bottom": 4
-          }
-        },
-        "773d62fd-1199-4eca-812c-55c53bdc427d": {
-          "type": "icon",
-          "settings": {
-            "icon_name": "icon-water",
-            "image": "shopify://shop_images/check_1.png",
-            "icon_size": 20,
-            "icon_color": "#2d5930",
-            "show_icon_bg": false,
-            "text": "<p>Long, soft needles - perfect for pets and kids</p>",
-            "padding_bottom": 4
-          }
-        },
-        "47bcec6a-6d01-488f-9419-26c5f69d40bb": {
-          "type": "icon",
-          "settings": {
-            "icon_name": "icon-leaf",
-            "image": "shopify://shop_images/check_1.png",
-            "icon_size": 20,
-            "icon_color": "#2d5930",
-            "show_icon_bg": false,
-            "text": "<p>Excellent needle retention</p>",
-            "padding_bottom": 4
-          }
-        },
-        "icon_pTMLBG": {
-          "type": "icon",
-          "settings": {
-            "icon_name": "icon-award",
-            "image": "shopify://shop_images/check_1.png",
-            "icon_size": 20,
-            "icon_color": "#ffffff",
-            "show_icon_bg": false,
-            "text": "<p>Real and live potted Christmas Tree</p>",
-            "padding_bottom": 8
-          }
-        },
-        "icon_gEEmhf": {
-          "type": "icon",
-          "settings": {
-            "icon_name": "icon-award",
-            "image": "shopify://shop_images/check_1.png",
-            "icon_size": 16,
-            "icon_color": "#060f9e",
-            "show_icon_bg": false,
-            "text": "<p>Complete root system giving best chance of living for many years to come.</p>",
-            "padding_bottom": 4
-          }
-        },
-        "icon_CCDqKy": {
-          "type": "icon",
-          "settings": {
-            "icon_name": "icon-award",
-            "image": "shopify://shop_images/check_1.png",
-            "icon_size": 20,
-            "icon_color": "#2d5930",
-            "show_icon_bg": false,
-            "text": "<p>Subtle Christmassy scent</p>",
-            "padding_bottom": 4
-          }
-        },
-        "icon_jYRWXw": {
-          "type": "icon",
-          "settings": {
-            "icon_name": "icon-award",
-            "image": "shopify://shop_images/check_1.png",
-            "icon_size": 20,
-            "icon_color": "#060f9e",
-            "show_icon_bg": false,
-            "text": "<p>Most popular tree in the UK</p>",
-            "padding_bottom": 16
-          }
-        },
-        "text_Tgj3W3": {
-          "type": "text",
-          "settings": {
-            "title": "<p>Height includes the pot, so it can perfectly fit the space you’ve measured.</p>",
-            "padding_bottom": 8
-          }
-        },
-        "text_WVEqxm": {
-          "type": "text",
-          "settings": {
-            "title": "<p><em>Free and fast delivery.</em></p>",
-            "padding_bottom": 8
-          }
-        },
         "siblings": {
           "type": "siblings",
           "settings": {
@@ -165,10 +114,6 @@
             "cutline": "",
             "padding_bottom": 8
           }
-        },
-        "dingdoong_delivery_date_app_block_n7dQVL": {
-          "type": "shopify://apps/dingdoong-delivery-date/blocks/app-block/65ab0a55-83b7-43d0-839b-31ed27b3a16d",
-          "settings": {}
         },
         "text_yBCjkg": {
           "type": "text",
@@ -228,20 +173,15 @@
       "block_order": [
         "d9f6f53e-eaa1-4e9e-8551-16389645bfd3",
         "title",
-        "text_wF63kx",
         "c70cf2cf-7999-40ca-88c5-1cb9476a6f31",
-        "form",
-        "1bb8bfc8-adf2-45f9-8f88-53227bae55b5",
+        "text_wF63kx",
         "773d62fd-1199-4eca-812c-55c53bdc427d",
-        "47bcec6a-6d01-488f-9419-26c5f69d40bb",
+        "1bb8bfc8-adf2-45f9-8f88-53227bae55b5",
         "icon_pTMLBG",
-        "icon_gEEmhf",
-        "icon_CCDqKy",
-        "icon_jYRWXw",
-        "text_Tgj3W3",
-        "text_WVEqxm",
-        "siblings",
         "dingdoong_delivery_date_app_block_n7dQVL",
+        "text_Tgj3W3",
+        "form",
+        "siblings",
         "text_yBCjkg",
         "description",
         "pickup",
@@ -252,7 +192,9 @@
         ".product__submit__add {background-color: #2d5930 !important; color: white !important;}",
         "p {font-weight: 400 !important;}",
         "em {font-weight: bold !important; font-size: 16px !important;}",
-        "[data-product-price] {font-size: 20px !important;}"
+        "[data-product-price] {font-size: 20px !important;}",
+        ".ot-dingdoong-main > div:nth-child(6) {display: none !important;}",
+        ".ot-dingdoong-main {margin-bottom: 30px;}"
       ],
       "settings": {
         "bg": "palette--light bg--accent",

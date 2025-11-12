@@ -17,7 +17,7 @@
       "settings": {
         "footer_logo": "{{ shop.brand.logo }}",
         "logo_max_width": 120,
-        "footer_description": "<p><strong>Contact Us</strong></p><p>Phone: 0333 3355 947</p><p>Email: hello@wetreekings.com</p>",
+        "footer_description": "<p><strong>Contact Us</strong></p><p>Phone: 0333 3355 947</p><p>Email: hello@wetreekings.com</p><p>Business Address:</p><p>159 High Street<br/>Barnet<br/>Herts, EN5 5SU</p>",
         "footer_linklist": "footer",
         "footer_second_linklist": "footer-menu-2",
         "width": "wrapper",
