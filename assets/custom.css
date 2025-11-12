@@ -1,3 +1,7 @@
+.fw-bold {
+    font-weight: bold;
+}
+
 .product__price {
     font-weight: var(--FONT-WEIGHT-BODY-BOLD);
 }

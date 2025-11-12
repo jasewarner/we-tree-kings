@@ -448,6 +448,8 @@
               <span data-add-to-cart-text>
                 {{ button_text }}
               </span>
+              <span>&ndash;</span>
+              <span class="fw-bold" data-add-to-cart-price>{{ product.selected_or_first_available_variant.price | money }}</span>
             </span>
 
             <span class="btn-state-loading">
