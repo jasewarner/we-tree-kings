@@ -86,7 +86,7 @@
           "type": "text",
           "settings": {
             "title": "<p>*Height includes the pot.</p>",
-            "padding_bottom": 14
+            "padding_bottom": 32
           }
         },
         "form": {

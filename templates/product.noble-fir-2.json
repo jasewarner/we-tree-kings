@@ -79,7 +79,7 @@
             "icon_color": "#060f9e",
             "show_icon_bg": false,
             "text": "<p>Full, layered, and bushy, a real showpiece</p>",
-            "padding_bottom": 16
+            "padding_bottom": 32
           }
         },
         "form": {
