@@ -79,18 +79,7 @@
             "icon_color": "#2d5930",
             "show_icon_bg": false,
             "text": "<p>Incredible citrussy scent</p>",
-            "padding_bottom": 4
-          }
-        },
-        "dingdoong_delivery_date_app_block_frzqkn": {
-          "type": "shopify://apps/dingdoong-delivery-date/blocks/app-block/65ab0a55-83b7-43d0-839b-31ed27b3a16d",
-          "settings": {}
-        },
-        "upsell": {
-          "type": "upsell",
-          "settings": {
-            "product": "water-holding-tree-stand",
-            "padding_bottom": 8
+            "padding_bottom": 16
           }
         },
         "form": {
@@ -105,6 +94,13 @@
             "subscriptions_enable_selectors": true,
             "info_page": "",
             "padding_bottom": 8
+          }
+        },
+        "upsell": {
+          "type": "upsell",
+          "settings": {
+            "product": "water-holding-tree-stand",
+            "padding_bottom": 32
           }
         },
         "siblings": {
@@ -178,9 +174,8 @@
         "1bb8bfc8-adf2-45f9-8f88-53227bae55b5",
         "47bcec6a-6d01-488f-9419-26c5f69d40bb",
         "icon_CCDqKy",
-        "dingdoong_delivery_date_app_block_frzqkn",
-        "upsell",
         "form",
+        "upsell",
         "siblings",
         "text_yBCjkg",
         "description",

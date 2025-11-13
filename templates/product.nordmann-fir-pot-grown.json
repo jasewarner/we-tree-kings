@@ -79,12 +79,8 @@
             "icon_color": "#ffffff",
             "show_icon_bg": false,
             "text": "<p>Subtle Christmassy scent</p>",
-            "padding_bottom": 0
+            "padding_bottom": 12
           }
-        },
-        "dingdoong_delivery_date_app_block_n7dQVL": {
-          "type": "shopify://apps/dingdoong-delivery-date/blocks/app-block/65ab0a55-83b7-43d0-839b-31ed27b3a16d",
-          "settings": {}
         },
         "text_Tgj3W3": {
           "type": "text",
@@ -104,7 +100,7 @@
             "option_size_swatch": 34,
             "subscriptions_enable_selectors": true,
             "info_page": "",
-            "padding_bottom": 8
+            "padding_bottom": 32
           }
         },
         "siblings": {
@@ -178,7 +174,6 @@
         "773d62fd-1199-4eca-812c-55c53bdc427d",
         "1bb8bfc8-adf2-45f9-8f88-53227bae55b5",
         "icon_pTMLBG",
-        "dingdoong_delivery_date_app_block_n7dQVL",
         "text_Tgj3W3",
         "form",
         "siblings",
